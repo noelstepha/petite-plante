@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    font-display: swap;
+    src: url('DancingScript-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    font-weight: 500;
+    font-display: swap;
+    src: url('DancingScript-Medium.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Dancing Script';
+    font-weight: 600;
+    font-display: swap;
+    src: url('DancingScript-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    font-weight: 700;
+    font-display: swap;
+    src: url('DancingScript-Bold.ttf') format('truetype');
+}
+
+
