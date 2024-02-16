@@ -42,7 +42,7 @@ import BrushSeparator from '@/components/icons/BrushSeparator.vue'
           </p>
         </div>
         <div class="w-full">
-          <img src="/img/teleconsultation.png" class="m-auto"/>
+          <img src="/img/teleconsultation.png" class="m-auto" alt="teleconsultation"/>
         </div>
       </div>
       <div class="py-5 mt-5">
@@ -50,21 +50,21 @@ import BrushSeparator from '@/components/icons/BrushSeparator.vue'
         <p class="flex flex-col lg:flex-row justify-start items-center">
           <consultation-item
             class="mt-10 px-10 lg:pr-10"
-            number="1"
+            :number="1"
             text="Vous prenez rendez-vous par téléphone, SMS ou par mail"
           >
             <icon-calendar />
           </consultation-item>
           <consultation-item
             class="mt-10 px-10"
-            number="2"
+            :number="2"
             text="Vous recevez un lien directement par mail avant la séance"
           >
             <icon-envelope />
           </consultation-item>
           <consultation-item
             class="mt-10 px-10"
-            number="3"
+            :number="3"
             text="Vous accédez à la téléconsultation depuis votre ordinateur, tablette ou téléphone"
           >
             <icon-computer />
@@ -76,21 +76,21 @@ import BrushSeparator from '@/components/icons/BrushSeparator.vue'
         <p class="flex flex-col lg:flex-row justify-start items-center">
           <consultation-item
             class="mt-10 px-10 lg:pr-10"
-            number="4"
+            :number="4"
             text="Nous recueillons vos habitudes de vie et de votre parcours de santé"
           >
             <icon-talk />
           </consultation-item>
           <consultation-item
             class="mt-10 px-10"
-            number="5"
+            :number="5"
             text="Nos discussons ensemble des solutions existantes"
           >
             <icon-list />
           </consultation-item>
           <consultation-item
             class="mt-10 px-10 lg:pr-10"
-            number="6"
+            :number="6"
             text="Vous réglez la consultation par carte bancaire sur le site"
           >
             <icon-euro />
@@ -103,7 +103,7 @@ import BrushSeparator from '@/components/icons/BrushSeparator.vue'
         <p class="flex flex-col lg:flex-row justify-start items-center">
         <consultation-item
           class="mt-10 px-10 lg:pr-10"
-          number="7"
+          :number="7"
           text="Vous recevez par email, sous 2 à 5 jours, un bilan et vos conseils personnalisés"
         >
           <icon-inbox />

@@ -10,8 +10,7 @@ const router = createRouter({
       component: HomeView
     }
   ],
-  scrollBehavior(to, from, savedPosition) {
-    console.log(to, from, savedPosition)
+  scrollBehavior(to) {
     if (to.fullPath === "/") return { top: 0 }
     return {
       el: to.hash,

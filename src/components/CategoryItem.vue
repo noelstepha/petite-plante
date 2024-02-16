@@ -6,6 +6,7 @@ defineProps<{
   title: string
   color?: string
 }>()
+const base = import.meta.env.BASE_URL
 </script>
 
 <template>
@@ -15,7 +16,7 @@ defineProps<{
     </div>
     <div class="absolute absolute-center bottom-3/5">
       <figure class="m-auto w-32 md:w-40 pl-2 md:pl-5">
-        <img :src="img" class="w-full" alt="title" />
+        <img :src="`${base}/img/${img}`" class="w-full" alt="title" />
       </figure>
     </div>
     <div class="w-full flex items-center pt-24 md:pt-32 relative z-20">
@@ -43,9 +44,5 @@ defineProps<{
   left:0;
   right:0;
   margin:auto;
-}
-
-.inside {
-  padding-top: 6.5rem
 }
 </style>
