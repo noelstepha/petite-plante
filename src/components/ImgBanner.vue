@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import NavButton from '@/components/NavButton.vue'
 import IconLeaves from "@/components/icons/IconLeaves.vue";
+import WaveDecorator from "@/components/icons/WaveDecorator.vue";
 </script>
 
 <template>
@@ -28,9 +28,7 @@ import IconLeaves from "@/components/icons/IconLeaves.vue";
         </div>
       </div>
     </div>
-    <div class="absolute bottom-0 w-full rotate-180 translate-y-10">
-      <img class="w-full" src="/img/wave.svg" alt="wave-decorator"/>
-    </div>
+    <wave-decorator class="text-white w-full rotate-180" />
   </div>
 </template>
 

@@ -37,7 +37,7 @@ import BrushSeparator from '@/components/icons/BrushSeparator.vue'
             Cependant, je vous demande un acompte de 20 € pour confirmer votre rendez-vous.
             Tout déplacement à domicile est en supplément et les règlements pourront se faire alors par carte bancaire, chèque ou espèce.<br /><br />
 
-            Concernant l'achat, en supplément, des produits conseillés :<br />
+            Concernant l'achat, en supplément, des produits conseillés :
             Vous les trouverez en magasin bio ou en pharmacie. Je mets aussi à votre disposition, sur mon blog, des liens internets.
           </p>
         </div>
@@ -145,7 +145,7 @@ import BrushSeparator from '@/components/icons/BrushSeparator.vue'
   left: 0;
   top: -5%;
   width: 100%;
-  height: 15%;
+  height: 14%;
   opacity: 0.5;
   background-image: url('/img/bubble.png');
   background-size: 100%;

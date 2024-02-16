@@ -16,6 +16,6 @@ defineProps<{
 </template>
 <style>
 .text-shadow {
-  text-shadow: 1px 1px #d5c1d9;
+  text-shadow: 1px 1px #dddae1;
 }
 </style>

@@ -1,20 +1,21 @@
 <script setup lang="ts">
 import IconFlowerEmblem from '@/components/icons/IconFlowerEmblem.vue'
 import ArticleTitle from '@/components/ArticleTitle.vue'
+import WaveDecorator from "@/components/icons/WaveDecorator.vue";
 </script>
 
 <template>
   <article id="about" class="relative">
-    <img src="/img/wave.svg" class="w-full absolute" />
-    <div class="bg-amber-100 mt-10 flex flex-col lg:flex-row items-center py-20 p-page">
-      <section class="pt-20 w-full">
+    <wave-decorator class="text-amber-100 w-full rotate-180" />
+    <div class="bg-amber-100 flex flex-col lg:flex-row items-center pb-20 p-page">
+      <section class="pt-10 lg:pt-0 w-full">
         <article-title text="Qui suis-je ?"></article-title>
         <h1 class="font-dancing text-5xl my-3 mt-10 text-brown-900">Bienvenue !</h1>
         <div class="flex text-justify">
           <div>
             <p>
               Je m'appelle Corinne Cloué. Pendant la Covid, je travaillais et je voyais la nature prendre toute sa place pendant
-              que nous étions confinés... J'étais émerveillée de la capacité d'adaptation des
+              que nous étions confinés. J'étais émerveillée de la capacité d'adaptation des
               plantes et des animaux : ils se réappropriaient l'espace au moment où l'humain
               s'effaçait. C'était enfin le règne de la Nature après des siècles de destruction ! Et
               je me suis posée la question de ma place dans le monde. J'étais en quête de sens.
@@ -28,15 +29,15 @@ import ArticleTitle from '@/components/ArticleTitle.vue'
           </div>
         </div>
       </section>
-      <div class="relative w-full bg-points pt-20">
-        <img src="/img/serums.png" class="w-5/6 w-max-original m-auto" />
+      <div class="relative w-full bg-points mt-20">
+        <img src="/img/serums.png" class="w-5/6 w-max-original m-auto" alt="serums"/>
       </div>
     </div>
     <section class="bg-amber-100 pt-10 pb-20 flex flex-col lg:flex-row items-center p-page">
-      <div class="w-full bg-points pr-10 hidden lg:block">
-        <img src="/img/spices.png" class="w-5/6 m-auto" />
+      <div class="w-full bg-points py-10 hidden lg:block">
+        <img src="/img/spices.png" class="w-5/6 m-auto" alt="spices"/>
       </div>
-      <div class="w-full">
+      <div class="w-full ml-10">
         <article-title text="Ma déontologie"></article-title>
         <h1 class="font-dancing text-5xl my-3 mt-10 text-brown-900">Le respect</h1>
         <div class="text-justify">
@@ -75,8 +76,8 @@ import ArticleTitle from '@/components/ArticleTitle.vue'
           </p>
         </div>
       </div>
-      <div class="w-full bg-points pt-10 lg:hidden">
-        <img src="/img/spices.png" class="w-5/6 m-auto" />
+      <div class="w-full bg-points mt-10 lg:hidden">
+        <img src="/img/spices.png" class="w-5/6 m-auto" alt="spices" />
       </div>
     </section>
   </article>

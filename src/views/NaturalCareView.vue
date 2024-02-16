@@ -5,7 +5,7 @@ import ArticleTitle from '@/components/ArticleTitle.vue'
 <template>
   <article id="natural-care" class="py-10">
     <section class="flex flex-col lg:flex-row p-page">
-      <img class="w-1/2 pt-10 pr-5 max-w-4xl m-auto" src="/img/natural-care.png" />
+      <img class="w-full md:w-2/3 lg:w-1/2 pt-10 lg:pr-5 m-auto" src="/img/natural-care.png" alt="natural-care" />
       <div class="w-full m-auto px-5">
         <article-title text="Les conseils au naturel"/>
         <h1 class="font-dancing text-4xl my-3 mt-5 text-green-800">
@@ -23,13 +23,3 @@ import ArticleTitle from '@/components/ArticleTitle.vue'
     </section>
   </article>
 </template>
-
-<style scoped>
-.bg-ribbon {
-  background-image: url('/img/spring-ribbon.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 192px;
-  width: 196px;
-}
-</style>

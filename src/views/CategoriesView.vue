@@ -4,7 +4,7 @@ import colors from 'tailwindcss/colors'
 </script>
 
 <template>
-  <section class="px-20 mb-10">
+  <section class="px-20 pb-10 mb-10">
     <div>
     <div class="flex flex-wrap justify-center">
       <category-item
