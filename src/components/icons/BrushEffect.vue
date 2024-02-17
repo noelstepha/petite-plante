@@ -1,9 +1,9 @@
 <template>
   <article class="brush-wrap">
-    <img src="/img/decorations/deco3.png" class="absolute w-36 lg:w-44 top-5 -left-8 -z-10 rotate-11" />
+    <img src="/img/decorations/deco3.png" class="absolute w-36 lg:w-44 top-5 -left-8 -z-10 rotate-11" alt="deco-leaf"/>
     <div class="pt-5 pb-10 w-2/3 m-auto z-10"><slot></slot></div>
-    <img src="/img/decorations/deco2.png" class="absolute w-20 lg:w-28 -bottom-5 right-0 lg:right-5" />
-    <img src="/img/decorations/deco1.png" class="absolute w-24 lg:w-36 -bottom-5  right-5 lg:right-10" />
+    <img src="/img/decorations/deco2.png" class="absolute w-20 lg:w-28 -bottom-5 right-0 lg:right-5" alt="deco-flower" />
+    <img src="/img/decorations/deco1.png" class="absolute w-24 lg:w-36 -bottom-5  right-5 lg:right-10" alt="deco-leaves"/>
 
   </article>
   <svg height="0" width="0" xmlns="http://www.w3.org/2000/svg" class="bg-lime-100" stroke="#7bbb6b">
@@ -36,7 +36,7 @@
   left: 0;
   z-index: -1;
   background: #d3fbbc;
-  clip-path: url(#clip); /* applying clip animation */
+  clip-path: url(#clip);
 }
 
 .brush-wrap p {

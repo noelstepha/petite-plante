@@ -10,7 +10,7 @@ import colors from 'tailwindcss/colors'
       <category-item
         title="Phytothérapie"
         img="categories/phytotherapy.png"
-        class="text-amber-100"
+        :color="colors.amber['100']"
       >
         <span class="font-dancing text-xl md:text-2xl text-amber-800">La phytothérapie</span><br/>est le traitement ou prévention des maladies par l'usage des plantes. La phytothérapie fait partie des médecines parallèles, ou médecines douces.
       </category-item>

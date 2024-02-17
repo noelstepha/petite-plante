@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import PaintBrush from "@/components/icons/PaintBrush.vue";
-
 defineProps<{
   img: string
   title: string
@@ -10,39 +8,46 @@ const base = import.meta.env.BASE_URL
 </script>
 
 <template>
-  <div class="rounded-full relative px-5 scope">
-    <div class="absolute behind">
-      <paint-brush :style="`color: ${color}`" class="w-full" />
-    </div>
-    <div class="absolute absolute-center bottom-3/5">
-      <figure class="m-auto w-32 md:w-40 pl-2 md:pl-5">
+  <article class="relative mt-20">
+    <div class="absolute absolute-center -top-5 sm:-top-8 md:-top-16 lg:-top-20">
+      <figure class="m-auto w-32 md:w-40">
         <img :src="`${base}/img/${img}`" class="w-full" alt="title" />
       </figure>
     </div>
-    <div class="w-full flex items-center pt-24 md:pt-32 relative z-20">
-      <div class="text-center text-sm pl-5 scale-90 md:scale-100 md:pl-10 md:pr-5 text-neutral-800">
-        <slot></slot>
+    <div class="brush relative pl-5 pr-8 mt-8 md:mt-2 lg:mt-0" :style="{'background-color': color }" >
+      <div class="w-full h-full flex items-center relative z-20">
+        <div
+          class="text-center text-sm pl-5 scale-90 md:scale-100 md:pl-10 md:pr-5 text-neutral-800"
+        >
+          <slot></slot>
+        </div>
       </div>
     </div>
-  </div>
+    <svg class="svg" width="0" height="0">
+      <clipPath id="my-clip-path" clipPathUnits="objectBoundingBox">
+        <path
+          d="M0.982,0.554 C1,0.528,1,0.495,0.972,0.477 C0.955,0.466,0.936,0.46,0.918,0.451 C0.904,0.441,0.889,0.432,0.874,0.423 C0.904,0.4,0.932,0.375,0.958,0.347 C0.967,0.34,0.972,0.331,0.972,0.32 C0.951,0.306,0.933,0.29,0.918,0.269 C0.912,0.261,0.903,0.252,0.898,0.243 C0.912,0.228,0.926,0.207,0.912,0.19 C0.896,0.177,0.88,0.164,0.864,0.152 C0.845,0.142,0.824,0.131,0.803,0.129 C0.799,0.13,0.796,0.131,0.792,0.132 C0.792,0.129,0.791,0.126,0.791,0.123 C0.787,0.095,0.754,0.088,0.731,0.083 C0.715,0.078,0.698,0.079,0.683,0.086 C0.665,0.09,0.648,0.098,0.631,0.107 C0.631,0.107,0.631,0.107,0.63,0.107 C0.629,0.106,0.628,0.105,0.626,0.104 C0.615,0.094,0.615,0.078,0.616,0.064 C0.618,0.052,0.619,0.04,0.61,0.031 C0.605,0.027,0.603,0.026,0.595,0.026 C0.589,0.026,0.583,0.026,0.577,0.028 C0.547,0.034,0.519,0.043,0.491,0.055 C0.52,0.027,0.543,0,0.517,0.002 C0.496,0.008,0.474,0.015,0.452,0.022 C0.434,0.027,0.415,0.031,0.399,0.04 C0.315,0.083,0.238,0.139,0.167,0.2 C0.148,0.217,0.128,0.234,0.116,0.256 C0.112,0.27,0.114,0.285,0.114,0.299 C0.104,0.308,0.093,0.318,0.084,0.328 C0.078,0.333,0.074,0.338,0.069,0.343 C0.059,0.353,0.049,0.363,0.039,0.373 C0.034,0.382,0.026,0.39,0.022,0.399 C0.019,0.406,0.018,0.414,0.018,0.422 C0.016,0.44,0.028,0.457,0.028,0.475 C0.025,0.483,0.02,0.491,0.016,0.498 C0.008,0.512,0,0.527,0.001,0.544 C0.009,0.571,0.034,0.592,0.06,0.602 C0.073,0.608,0.107,0.617,0.123,0.632 C0.102,0.651,0.081,0.672,0.065,0.696 C0.053,0.721,0.059,0.753,0.077,0.775 C0.085,0.786,0.097,0.792,0.106,0.801 C0.107,0.811,0.105,0.821,0.114,0.828 C0.129,0.843,0.152,0.847,0.17,0.857 C0.188,0.87,0.205,0.882,0.222,0.896 C0.229,0.903,0.238,0.909,0.242,0.918 C0.245,0.948,0.277,0.961,0.3,0.974 C0.318,0.985,0.333,1,0.355,1 C0.373,0.997,0.39,0.99,0.406,0.981 C0.413,0.983,0.42,0.985,0.442,0.986 C0.468,0.987,0.455,0.985,0.488,0.998 C0.519,1,0.549,0.99,0.577,0.977 C0.605,0.962,0.633,0.945,0.66,0.927 C0.681,0.913,0.737,0.874,0.786,0.834 C0.827,0.806,0.867,0.776,0.903,0.743 C0.918,0.731,0.931,0.717,0.943,0.704 C0.948,0.699,0.953,0.694,0.957,0.689 C0.977,0.667,0.979,0.649,0.965,0.623 C0.959,0.612,0.948,0.603,0.946,0.59 C0.945,0.59,0.945,0.59,0.945,0.589 C0.958,0.579,0.97,0.567,0.982,0.554"
+        ></path>
+      </clipPath>
+    </svg>
+  </article>
 </template>
 
 <style scoped>
-.scope {
-  max-width: 300px;
-  height: 333px;
-}
-.behind {
-  z-index: -1;
-  top: 22%;
+.absolute-center {
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  margin: auto;
 }
 
-.absolute-center {
-  width:100%;
-  display:block;
-  position:absolute;
-  left:0;
-  right:0;
-  margin:auto;
+.brush {
+  max-width: 300px;
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  z-index: -1;
+  clip-path: url(#my-clip-path);
 }
 </style>
