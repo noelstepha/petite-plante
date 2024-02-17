@@ -1,32 +1,40 @@
-<script setup lang="ts">
+<script lang="ts">
 import IconLeaves from '@/components/icons/IconLeaves.vue'
-let menuOpen = true
-function toggle() {
-  menuOpen = !menuOpen
-}
-
-const pages = [
-  {
-    to: '/',
-    title: 'Accueil'
+export default {
+  components: { IconLeaves },
+  data() {
+    return {
+      menuOpen: true,
+      pages: [
+        {
+          to: '/',
+          title: 'Accueil'
+        },
+        {
+          to: '#natural-care',
+          title: 'Les soins naturels'
+        },
+        {
+          to: '#about',
+          title: 'A propos'
+        },
+        {
+          to: '#pricing',
+          title: 'Tarif'
+        },
+        {
+          to: '/contact',
+          title: 'Contact'
+        }
+      ]
+    }
   },
-  {
-    to: '#natural-care',
-    title: 'Les soins naturels'
-  },
-  {
-    to: '#about',
-    title: 'A propos'
-  },
-  {
-    to: '#pricing',
-    title: 'Tarif'
-  },
-  {
-    to: '/contact',
-    title: 'Contact'
+  methods: {
+    toggle() {
+      this.menuOpen = !this.menuOpen
+    }
   }
-]
+}
 </script>
 
 <template>
@@ -38,7 +46,7 @@ const pages = [
           <!-- Mobile menu button-->
           <button
             type="button"
-            class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            class="inline-flex items-center justify-center p-2 rounded-md text-white bg-green-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
             aria-controls="mobile-menu"
             aria-expanded="false"
             @click="toggle"
@@ -127,9 +135,3 @@ const pages = [
     </div>
   </nav>
 </template>
-
-<style scoped>
-.text-shadow {
-  text-shadow: 1px 1px #c2cca7;
-}
-</style>

@@ -37,7 +37,7 @@ import WaveDecorator from "@/components/icons/WaveDecorator.vue";
       <div class="w-full bg-points py-10 hidden lg:block">
         <img src="/img/spices.png" class="w-5/6 m-auto" alt="spices"/>
       </div>
-      <div class="w-full ml-10">
+      <div class="w-full ml-0 lg:ml-10">
         <article-title text="Ma déontologie"></article-title>
         <h1 class="font-dancing text-5xl my-3 mt-10 text-brown-900">Le respect</h1>
         <div class="text-justify">
