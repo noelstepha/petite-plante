@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import IconLeaves from "@/components/icons/IconLeaves.vue";
 import WaveDecorator from "@/components/icons/WaveDecorator.vue";
+import BookingWidget from "@/components/BookingWidget.vue";
 </script>
 
 <template>
@@ -22,9 +23,7 @@ import WaveDecorator from "@/components/icons/WaveDecorator.vue";
         >
 
         <div class="flex flex-wrap justify-center py-5 md:py-10">
-<!--          <nav-button class="text-base m-2 p-2 uppercase shadow-md" to="/contact" dark>-->
-<!--            <router-link to="/contact">Prendre rendez-vous</router-link>-->
-<!--          </nav-button>-->
+            <booking-widget />
         </div>
       </div>
     </div>
