@@ -129,6 +129,7 @@ export default {
               $router.currentRoute.value.path !== page.to,
             'bg-herb-400 text-white': $router.currentRoute.value.path === page.to
           }"
+          @click="toggle"
           >{{ page.title }}</router-link
         >
       </div>
