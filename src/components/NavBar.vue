@@ -16,14 +16,14 @@ export default {
         },
         {
           to: '#about',
-          title: 'A propos'
+          title: 'À propos'
         },
         {
           to: '#pricing',
-          title: 'Tarif'
+          title: 'La séance'
         },
         {
-          to: '/contact',
+          to: '#contact',
           title: 'Contact'
         }
       ]

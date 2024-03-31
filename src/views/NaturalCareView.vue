@@ -14,7 +14,7 @@ import ArticleTitle from '@/components/ArticleTitle.vue'
         <p class="m-auto text-justify">
           Conseillère en produits de soins naturels consiste à aider à entretenir la bonne santé et le bien-être en proposant
           des produits naturels comme les plantes médicinales, les huiles essentielles, les produits de la ruche et les compléments alimentaires par exemple.
-          Cela s'adresse à tout le monde mais de manière encadrée et adaptée à chaque personne...<br /><br />
+          Cela s'adresse à tout le monde mais de manière encadrée et adaptée à chaque personne.<br /><br />
 
           Une fois la problématique du client comprise, une fois la cause de son déséquilibre identifié lors d'un questionnaire de vitalité,
           la conseillère en produits de soins naturels va essayer de ramener la personne vers une état de confort et de bien-être toujours dans le respect du travail du médecin.

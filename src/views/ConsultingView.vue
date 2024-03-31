@@ -11,6 +11,7 @@ import WaveDecorator from '@/components/icons/WaveDecorator.vue'
 import IconList from '@/components/icons/IconList.vue'
 import BrushEffect from '@/components/icons/BrushEffect.vue'
 import BrushSeparator from '@/components/icons/BrushSeparator.vue'
+import BookingWidget from "@/components/BookingWidget.vue";
 </script>
 
 <template>
@@ -32,7 +33,7 @@ import BrushSeparator from '@/components/icons/BrushSeparator.vue'
       <div class="flex flex-col lg:flex-row items-center">
         <div class="w-full pt-16">
           <article-title text="Tarif" secondary></article-title>
-          <h1 class="font-dancing text-5xl my-8 text-green-900">50 € pour la séance et les conseils</h1>
+          <h1 class="font-dancing text-5xl my-8 text-green-900">50 € pour la téléséance et les conseils</h1>
           <p class="text-justify lg:text-lg">
             Cependant, je vous demande un acompte de 20 € pour confirmer votre rendez-vous.
             Tout déplacement à domicile est en supplément et les règlements pourront se faire alors par carte bancaire, chèque ou espèce.<br /><br />
@@ -46,12 +47,12 @@ import BrushSeparator from '@/components/icons/BrushSeparator.vue'
         </div>
       </div>
       <div class="py-5 mt-5">
-        <article-title text="La prise de rendez-vous" secondary></article-title>
+        <article-title text="La prise de rendez-vous" secondary center-sm-only></article-title>
         <p class="flex flex-col lg:flex-row justify-start items-center">
           <consultation-item
             class="mt-10 px-10 lg:pr-10"
             :number="1"
-            text="Vous prenez rendez-vous par téléphone, SMS ou par mail"
+            text="Vous prenez rendez-vous sur le site"
           >
             <icon-calendar />
           </consultation-item>
@@ -72,43 +73,34 @@ import BrushSeparator from '@/components/icons/BrushSeparator.vue'
         </p>
       </div>
       <div class="py-5 my-5">
-        <article-title text="Durant la séance" secondary></article-title>
+        <article-title text="La séance" secondary center-sm-only></article-title>
         <p class="flex flex-col lg:flex-row justify-start items-center">
           <consultation-item
             class="mt-10 px-10 lg:pr-10"
             :number="4"
-            text="Nous recueillons vos habitudes de vie et de votre parcours de santé"
+            text="Nous recueillons vos habitudes de vie et de votre parcours de santé. Nos discussons ensemble des solutions existantes"
           >
             <icon-talk />
           </consultation-item>
           <consultation-item
-            class="mt-10 px-10"
-            :number="5"
-            text="Nos discussons ensemble des solutions existantes"
-          >
-            <icon-list />
-          </consultation-item>
-          <consultation-item
             class="mt-10 px-10 lg:pr-10"
-            :number="6"
+            :number="5"
             text="Vous réglez la consultation par carte bancaire sur le site"
           >
             <icon-euro />
           </consultation-item>
-
+          <consultation-item
+            class="mt-10 px-10 lg:pr-10"
+            :number="6"
+            text="Vous recevez par email, sous 2 à 5 jours, un bilan et vos conseils personnalisés"
+          >
+            <icon-inbox />
+          </consultation-item>
         </p>
       </div>
-      <div class="py-5 my-5">
-        <article-title text="Après la séance" secondary></article-title>
-        <p class="flex flex-col lg:flex-row justify-start items-center">
-        <consultation-item
-          class="mt-10 px-10 lg:pr-10"
-          :number="7"
-          text="Vous recevez par email, sous 2 à 5 jours, un bilan et vos conseils personnalisés"
-        >
-          <icon-inbox />
-        </consultation-item>
-        </p>
+      <p class="lg:text-lg text-center mt-10">Prenez rendez-vous dès maintenant en cliquant sur le bouton ci-dessous.</p>
+      <div class="flex flex-wrap justify-center py-5">
+        <booking-widget />
       </div>
     </section>
     <brush-separator class="text-green-100 w-full h-24 origin-center rotate-180" />

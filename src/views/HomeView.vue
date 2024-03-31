@@ -5,6 +5,7 @@ import ConsultingView from "@/views/ConsultingView.vue";
 import NaturalCareView from "@/views/NaturalCareView.vue";
 import WarningView from "@/views/WarningView.vue";
 import CategoriesView from "@/views/CategoriesView.vue";
+import ContactView from "@/views/ContactView.vue";
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import CategoriesView from "@/views/CategoriesView.vue";
   <about-view />
   <consulting-view />
   <warning-view />
+  <contact-view />
 </template>
 
 <style scoped></style>
