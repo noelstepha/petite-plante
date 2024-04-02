@@ -25,6 +25,11 @@ export default {
         {
           to: '#contact',
           title: 'Contact'
+        },
+        {
+          to: '/booking',
+          title: 'Espace reservation',
+          end: true
         }
       ]
     }

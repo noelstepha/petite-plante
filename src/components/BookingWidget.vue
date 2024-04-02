@@ -16,18 +16,20 @@ function setIsOpen(value: boolean) {
     script.value.onload = () => {
       new SimplybookWidget({
         widget_type: 'iframe',
-        url: 'https://petiteplante.simplybook.it',
-        theme: 'tender',
+        url: 'https://lapetiteplante.simplybook.it',
+        theme: 'default',
         theme_settings: {
-          sb_base_color: '#345c3c',
           timeline_hide_unavailable: '1',
           hide_past_days: '0',
           timeline_show_end_time: '0',
           timeline_modern_display: 'as_slots',
+          sb_base_color: '#345c3c',
           display_item_mode: 'list',
           booking_nav_bg_color: '#c5edb0',
           body_bg_color: '#f7f7f7',
-          sb_review_image: '',
+          sb_review_image: '25',
+          sb_review_image_preview:
+            '\/uploads\/petiteplante\/image_files\/preview\/11a523f3dba4ff9ffd71354174448755.jpg',
           dark_font_color: '#474747',
           light_font_color: '#ffffff',
           btn_color_1: '#26632b',
@@ -43,7 +45,7 @@ function setIsOpen(value: boolean) {
         app_config: {
           clear_session: 0,
           allow_switch_to_ada: 0,
-          predefined: { provider: '3', service: '2' }
+          predefined: { provider: '3' }
         },
         container_id: 'sbw_mbg5el'
       })
@@ -83,7 +85,9 @@ function setIsOpen(value: boolean) {
         leave-from="opacity-100 scale-100"
         leave-to="opacity-0 scale-95"
       >
-        <div class="fixed inset-0 mt-20 md:w-4/5 md:h-4/5 m-auto overflow-y-auto bg-[#f7f7f7] rounded">
+        <div
+          class="fixed inset-0 mt-20 md:w-4/5 md:h-4/5 m-auto overflow-y-auto bg-[#f7f7f7] rounded"
+        >
           <!-- Close button -->
           <div class="flex justify-end z-20">
             <button

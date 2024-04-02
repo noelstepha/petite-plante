@@ -8,6 +8,11 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
+    },
+    {
+      path: '/booking',
+      beforeEnter() {location.href = 'https://petiteplante.simplybook.it'},
+      component: HomeView
     }
   ],
   scrollBehavior(to) {

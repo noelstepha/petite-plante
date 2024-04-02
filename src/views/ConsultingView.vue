@@ -8,10 +8,9 @@ import IconInbox from '@/components/icons/IconInbox.vue'
 import ConsultationItem from '@/components/ConsultationItem.vue'
 import IconComputer from '@/components/icons/IconComputer.vue'
 import WaveDecorator from '@/components/icons/WaveDecorator.vue'
-import IconList from '@/components/icons/IconList.vue'
 import BrushEffect from '@/components/icons/BrushEffect.vue'
 import BrushSeparator from '@/components/icons/BrushSeparator.vue'
-import BookingWidget from "@/components/BookingWidget.vue";
+import BookingButton from "@/components/BookingButton.vue";
 </script>
 
 <template>
@@ -100,7 +99,7 @@ import BookingWidget from "@/components/BookingWidget.vue";
       </div>
       <p class="lg:text-lg text-center mt-10">Prenez rendez-vous dès maintenant en cliquant sur le bouton ci-dessous.</p>
       <div class="flex flex-wrap justify-center py-5">
-        <booking-widget />
+        <booking-button />
       </div>
     </section>
     <brush-separator class="text-green-100 w-full h-24 origin-center rotate-180" />

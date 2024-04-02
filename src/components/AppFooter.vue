@@ -20,6 +20,10 @@ const pages = [
   {
     to: '#contact',
     title: 'Contact'
+  },
+  {
+    to: '/booking',
+    title: 'Espace reservation',
   }
 ]
 </script>

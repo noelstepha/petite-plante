@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import IconLeaves from "@/components/icons/IconLeaves.vue";
 import WaveDecorator from "@/components/icons/WaveDecorator.vue";
-import BookingWidget from "@/components/BookingWidget.vue";
+import BookingButton from "@/components/BookingButton.vue";
 </script>
 
 <template>
@@ -23,7 +23,7 @@ import BookingWidget from "@/components/BookingWidget.vue";
         >
 
         <div class="flex flex-wrap justify-center py-5 md:py-10">
-            <booking-widget />
+            <booking-button />
         </div>
       </div>
     </div>
