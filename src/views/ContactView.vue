@@ -24,8 +24,8 @@ import ArticleTitle from '@/components/ArticleTitle.vue'
       <div class="flex flex-col items-center justify-center w-full">
         <img src="/img/mail-drawing.png" alt="email" class="h-20 w-28 mb-5" />
         <div>
-          <a href="mailto:corinne.avotreservice@gmail.com" class="font-bold text-xl text-red-950 hover:underline"
-            >corinne.avotreservice@gmail.com</a
+          <a href="mailto:contact@lapetiteplante.fr" class="font-bold text-xl text-red-950 hover:underline"
+            >contact@lapetiteplante.fr</a
           >
         </div>
       </div>
