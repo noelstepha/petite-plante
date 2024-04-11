@@ -11,20 +11,26 @@ import WaveDecorator from "@/components/icons/WaveDecorator.vue";
       <section class="pt-10 lg:pt-0 w-full">
         <article-title text="Qui suis-je ?"></article-title>
         <h1 class="font-dancing text-5xl my-3 mt-10 text-brown-900">Bienvenue !</h1>
-        <div class="flex text-justify">
+        <div class="flex text-justify lg:text-lg">
           <div>
             <p>
               Je m'appelle Corinne Cloué. Pendant la Covid, je travaillais et je voyais la nature prendre toute sa place pendant
               que nous étions confinés. J'étais émerveillée de la capacité d'adaptation des
               plantes et des animaux : ils se réappropriaient l'espace au moment où l'humain
               s'effaçait. C'était enfin le règne de la Nature après des siècles de destruction ! Et
-              je me suis posée la question de ma place dans le monde. J'étais en quête de sens.
+              je me suis posée la question de ma place dans le monde. J'étais en quête de sens...&nbsp;<span class="text-xl">🌿</span>
               <br />
             </p>
             <br />
             <p>
               C'est ainsi que je suis devenue, à 60 ans, Conseillère en Produits de Soins Naturels,
-              diplômée en 2023 de la formation en ligne HIPPOCRATUS, créée en 1999 par le Dr Michel Tourasse.
+              diplômée en 2023 de la formation en ligne HIPPOCRATUS, créée en 1999 par le Dr Michel Tourasse.&nbsp;<span class="text-xl">🧑‍🎓</span>
+            </p>
+            <br />
+            <p>
+              Je crois fermement que la Nature détient les clés d'une vie saine et équilibrée et
+              je suis là pour vous accompagner à chaque étape de votre voyage vers le bien-être.
+              Prenez racine avec <span class="font-bold text-green-900">La petite plante</span> et laissez-moi vous aider à fleurir.&nbsp;<span class="text-xl">🌼</span>
             </p>
           </div>
         </div>
@@ -40,33 +46,29 @@ import WaveDecorator from "@/components/icons/WaveDecorator.vue";
       <div class="w-full ml-0 lg:ml-10">
         <article-title text="Ma déontologie"></article-title>
         <h1 class="font-dancing text-5xl my-3 mt-10 text-brown-900">Le respect</h1>
-        <div class="text-justify">
+        <div class="text-justify lg:text-lg">
           <p>
             Chaque client est une personne à respecter, quelle que soit sa situation, son état de
             santé physique ou psychique, son niveau d'intégration sociale :
           </p>
           <br />
           <ul>
-            <li class="flex items-center">
-              <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mr-2" />
+            <li class="flex items-start">
+              <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
               Respect de la personne, de ses droits fondamentaux,
             </li>
-            <li class="flex items-center">
-              <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mr-2" />
-              Respect de ses biens
+            <li class="flex items-start">
+              <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
+              Respect de son espace de vie privée, de son intimité, de son intégrité, de sa dignité,
             </li>
-            <li class="flex items-center">
-              <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mr-2" />
-              Respect de son espace de vie privée, de son intimité, de son intégrité, de sa dignité
-            </li>
-            <li class="flex items-center">
-              <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mr-2" />
+            <li class="flex items-start">
+              <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
               Respect de sa culture, de son choix de vie et de son projet de vie quand il est
-              formulé
+              formulé,
             </li>
-            <li class="flex items-center">
-              <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mr-2" />
-              Respect de la confidentialité des informations reçues
+            <li class="flex items-start">
+              <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
+              Respect de la confidentialité des informations reçues.
             </li>
           </ul>
           <br />

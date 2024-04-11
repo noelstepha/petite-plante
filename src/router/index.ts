@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import FAQView from "@/views/FAQView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,9 +12,16 @@ const router = createRouter({
     },
     {
       path: '/booking',
-      beforeEnter() {location.href = 'https://petiteplante.simplybook.it'},
+      beforeEnter() {
+        location.href = 'https://petiteplante.simplybook.it'},
       component: HomeView
+    },
+    {
+      path: '/faq',
+      name: "faq",
+      component: FAQView
     }
+
   ],
   scrollBehavior(to) {
     if (to.fullPath === "/") return { top: 0 }

@@ -16,7 +16,7 @@ function setIsOpen(value: boolean) {
     script.value.onload = () => {
       new SimplybookWidget({
         widget_type: 'iframe',
-        url: 'https://lapetiteplante.simplybook.it',
+        url: 'https:\/\/petiteplante.simplybook.it',
         theme: 'default',
         theme_settings: {
           timeline_hide_unavailable: '1',
@@ -42,12 +42,8 @@ function setIsOpen(value: boolean) {
         timeline: 'modern',
         datepicker: 'top_calendar',
         is_rtl: false,
-        app_config: {
-          clear_session: 0,
-          allow_switch_to_ada: 0,
-          predefined: { provider: '3' }
-        },
-        container_id: 'sbw_mbg5el'
+        app_config: { clear_session: 0, allow_switch_to_ada: 0, predefined: { provider: '3' } },
+        container_id: 'sbw_iaik34'
       })
     }
     document.head.appendChild(script.value)
@@ -117,7 +113,7 @@ function setIsOpen(value: boolean) {
           <!-- Container to center the panel -->
           <div class="flex min-h-full items-center justify-center p-4 z-10 overflow-hidden">
             <DialogPanel class="w-full rounded bg-white">
-              <div id="sbw_mbg5el" class="w-full go-up" ref="widgetContainerRef"></div>
+              <div id="sbw_iaik34" class="w-full go-up" ref="widgetContainerRef"></div>
             </DialogPanel>
           </div>
         </div>

@@ -10,7 +10,7 @@ import IconComputer from '@/components/icons/IconComputer.vue'
 import WaveDecorator from '@/components/icons/WaveDecorator.vue'
 import BrushEffect from '@/components/icons/BrushEffect.vue'
 import BrushSeparator from '@/components/icons/BrushSeparator.vue'
-import BookingButton from "@/components/BookingButton.vue";
+import BookingWidget from "@/components/BookingWidget.vue";
 </script>
 
 <template>
@@ -34,11 +34,10 @@ import BookingButton from "@/components/BookingButton.vue";
           <article-title text="Tarif" secondary></article-title>
           <h1 class="font-dancing text-5xl my-8 text-green-900">50 € pour la téléséance et les conseils</h1>
           <p class="text-justify lg:text-lg">
-            Cependant, je vous demande un acompte de 20 € pour confirmer votre rendez-vous.
             Tout déplacement à domicile est en supplément et les règlements pourront se faire alors par carte bancaire, chèque ou espèce.<br /><br />
 
             Concernant l'achat, en supplément, des produits conseillés :
-            Vous les trouverez en magasin bio ou en pharmacie. Je mets aussi à votre disposition, sur mon blog, des liens internets.
+            Vous les trouverez en magasin bio ou en pharmacie. Je mets aussi à votre disposition, sur mon site, des liens internets.
           </p>
         </div>
         <div class="w-full">
@@ -58,16 +57,16 @@ import BookingButton from "@/components/BookingButton.vue";
           <consultation-item
             class="mt-10 px-10"
             :number="2"
-            text="Vous recevez un lien directement par mail avant la séance"
+            text="Vous réglez la consultation par carte bancaire sur le site"
           >
-            <icon-envelope />
+            <icon-euro />
           </consultation-item>
           <consultation-item
             class="mt-10 px-10"
             :number="3"
-            text="Vous accédez à la téléconsultation depuis votre ordinateur, tablette ou téléphone"
+            text="Vous recevez un lien directement par mail avant la séance"
           >
-            <icon-computer />
+            <icon-envelope />
           </consultation-item>
         </p>
       </div>
@@ -77,19 +76,19 @@ import BookingButton from "@/components/BookingButton.vue";
           <consultation-item
             class="mt-10 px-10 lg:pr-10"
             :number="4"
+            text="Vous accédez à la téléconsultation depuis votre ordinateur, tablette ou téléphone"
+          >
+            <icon-computer />
+          </consultation-item>
+          <consultation-item
+            class="mt-10 px-10"
+            :number="5"
             text="Nous recueillons vos habitudes de vie et de votre parcours de santé. Nos discussons ensemble des solutions existantes"
           >
             <icon-talk />
           </consultation-item>
           <consultation-item
-            class="mt-10 px-10 lg:pr-10"
-            :number="5"
-            text="Vous réglez la consultation par carte bancaire sur le site"
-          >
-            <icon-euro />
-          </consultation-item>
-          <consultation-item
-            class="mt-10 px-10 lg:pr-10"
+            class="mt-10 px-10"
             :number="6"
             text="Vous recevez par email, sous 2 à 5 jours, un bilan et vos conseils personnalisés"
           >
@@ -99,7 +98,7 @@ import BookingButton from "@/components/BookingButton.vue";
       </div>
       <p class="lg:text-lg text-center mt-10">Prenez rendez-vous dès maintenant en cliquant sur le bouton ci-dessous.</p>
       <div class="flex flex-wrap justify-center py-5">
-        <booking-button />
+        <booking-widget />
       </div>
     </section>
     <brush-separator class="text-green-100 w-full h-24 origin-center rotate-180" />

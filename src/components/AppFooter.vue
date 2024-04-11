@@ -59,6 +59,8 @@ const pages = [
         >
         <a class="block text-blue-500 underline" href="https://www.nutriting.com/">Nutriting</a>
         <a class="block text-blue-500 underline" href="https://www.sunday.fr/">Sunday</a>
+        <a class="block text-blue-500 underline" href="https://www.aroma-zone.com/">Aroma zone</a>
+        Je soutiens <a class="inline-block text-blue-500 underline" href="https://www.arboretoom.com">LIKEN</a>
       </div>
     </div>
     <div class="w-full flex justify-center p-3">

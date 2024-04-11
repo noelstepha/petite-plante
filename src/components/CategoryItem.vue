@@ -8,10 +8,10 @@ const base = import.meta.env.BASE_URL
 </script>
 
 <template>
-  <article class="relative mt-20">
+  <article class="relative mt-5 md:mt-20">
     <div class="absolute absolute-center -top-5 sm:-top-8 md:-top-16 lg:-top-20">
       <figure class="m-auto w-32 md:w-40">
-        <img :src="`${base}/img/${img}`" class="w-full" alt="title" />
+        <img :src="`${base}img/${img}`" class="w-full" alt="title" />
       </figure>
     </div>
     <div class="brush relative pl-5 pr-8 mt-8 md:mt-2 lg:mt-0" :style="{'background-color': color }" >
