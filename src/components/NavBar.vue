@@ -26,11 +26,6 @@ export default {
           to: '#contact',
           title: 'Contact'
         },
-        {
-          to: '/booking',
-          title: 'Espace reservation',
-          end: true
-        }
       ]
     }
   },
@@ -115,6 +110,11 @@ export default {
                 }"
                 >{{ page.title }}</router-link
               >
+              <a
+                href="https://petiteplante.simplybook.it"
+                target="_blank"
+                class="px-3 py-2 hover:bg-green-900 hover:text-white rounded-md text-sm font-medium text-green-800"
+              >Espace réservation</a>
             </div>
           </div>
         </div>
@@ -137,6 +137,11 @@ export default {
           @click="toggle"
           >{{ page.title }}</router-link
         >
+        <a
+          href="https://petiteplante.simplybook.it"
+          target="_blank"
+          class="block px-3 py-2 rounded-md text-base font-medium text-green-800"
+        >Espace réservation</a>
       </div>
     </div>
   </nav>

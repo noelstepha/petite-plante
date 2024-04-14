@@ -19,7 +19,7 @@ import ArticleTitle from '@/components/ArticleTitle.vue'
     <div class="flex flex-col md:flex-row pt-20 pb-10">
       <div class="flex flex-col items-center justify-center w-full mb-10 md:mb-0">
         <img src="/img/phone-drawing.png" alt="phone" class="h-20 w-16 mb-5" />
-        <a href="tel:+33671888257" class="font-bold text-xl text-red-950 hover:underline">06 71 88 82 57</a>
+        <a href="tel:+33683196971" class="font-bold text-xl text-red-950 hover:underline">06 83 19 69 71</a>
       </div>
       <div class="flex flex-col items-center justify-center w-full">
         <img src="/img/mail-drawing.png" alt="email" class="h-20 w-28 mb-5" />

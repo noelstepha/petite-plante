@@ -20,10 +20,6 @@ const pages = [
   {
     to: '#contact',
     title: 'Contact'
-  },
-  {
-    to: '/booking',
-    title: 'Espace reservation',
   }
 ]
 </script>
@@ -41,6 +37,11 @@ const pages = [
         <router-link v-for="page in pages" :key="page.to" :to="page.to" class="block my-1 hover:underline">{{
           page.title
         }}</router-link>
+        <a
+          href="https://petiteplante.simplybook.it"
+          target="_blank"
+          class="block my-1 hover:underline"
+        >Espace réservation</a>
       </div>
     </div>
     <div class="w-full md:w-1/3 p-5 flex flex-col items-center justify-center">
@@ -64,8 +65,8 @@ const pages = [
       </div>
     </div>
     <div class="w-full flex justify-center p-3">
-      <span class="mx-5">Copyright © La petite plante</span> |
-      <span class="mx-5">Tous Droits Réservés</span> |
+      <span class="mx-5">Copyright © 2024</span> |
+      <span class="mx-5">Tous Droits Réservés La petite plante - SASU capital social 100 € - 924 944 366 RCS PAU</span> |
       <span class="mx-5"
         >Images conçues par
         <a class="text-blue-500 underline" href="https://fr.freepik.com/">Freepik</a></span

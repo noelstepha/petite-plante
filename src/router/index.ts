@@ -11,12 +11,6 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/booking',
-      beforeEnter() {
-        location.href = 'https://petiteplante.simplybook.it'},
-      component: HomeView
-    },
-    {
       path: '/faq',
       name: "faq",
       component: FAQView

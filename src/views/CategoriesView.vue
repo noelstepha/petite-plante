@@ -5,7 +5,7 @@ import ArticleTitle from "@/components/ArticleTitle.vue";
 </script>
 
 <template>
-  <section class="px-20 pb-10 mb-10">
+  <section class="px-20 pb-10 my-10">
     <div>
       <article-title text="Les produits naturels" center/>
     <div class="flex flex-wrap justify-center mt-10">
