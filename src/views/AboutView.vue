@@ -14,7 +14,7 @@ import WaveDecorator from "@/components/icons/WaveDecorator.vue";
         <div class="flex text-justify lg:text-lg">
           <div>
             <p>
-              Je m'appelle Corinne Cloué. Pendant la Covid, je travaillais et je voyais la nature prendre toute sa place pendant
+              Je m'appelle Corinne Cloué et je suis la fondatrice de La Petite Plante. Pendant la Covid, je travaillais et je voyais la nature prendre toute sa place pendant
               que nous étions confinés. J'étais émerveillée de la capacité d'adaptation des
               plantes et des animaux : ils se réappropriaient l'espace au moment où l'humain
               s'effaçait. C'était enfin le règne de la Nature après des siècles de destruction ! Et

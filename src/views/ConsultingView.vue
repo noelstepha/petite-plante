@@ -83,14 +83,14 @@ import BookingWidget from "@/components/BookingWidget.vue";
           <consultation-item
             class="mt-10 px-10"
             :number="5"
-            text="Nous recueillons vos habitudes de vie et de votre parcours de santé. Nos discussons ensemble des solutions existantes"
+            text="Ensemble, nous recueillons vos habitudes de vie et de votre parcours de santé et nous discutons des solutions existantes"
           >
             <icon-talk />
           </consultation-item>
           <consultation-item
             class="mt-10 px-10"
             :number="6"
-            text="Vous recevez par email, sous 2 à 5 jours, un bilan et vos conseils personnalisés"
+            text="Vous recevrez par email, sous 2 à 5 jours, un bilan et vos conseils personnalisés"
           >
             <icon-inbox />
           </consultation-item>

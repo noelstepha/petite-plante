@@ -7,10 +7,8 @@ import ArticleTitle from '@/components/ArticleTitle.vue'
   <section id="contact" class="section pb-5 lg:py-16 p-page bg2">
     <article-title text="Contact" secondary center></article-title>
     <h1 class="font-dancing text-5xl my-5 text-brown-900 text-center">Des questions ?</h1>
-    <div class="text-center lg:text-lg text-justify md:w-2/3 md:m-auto">
-      Les séances se déroulent à distance, vous offrant confort et praticité. Cependant, pour
-      ceux qui préfèrent une séance à domicile, je me déplace dans les environs de la ville de
-      Pau.<br /><br />
+    <div class="lg:text-lg text-justify md:w-2/3 md:m-auto">
+      Les séances se déroulent à distance, vous offrant confort et praticité.<br /><br />
       Je suis là pour répondre à toutes vos questions et vous guider dans le processus de
       réservation si besoin.
       N'hésitez pas à me contacter par téléphone ou par e-mail.
