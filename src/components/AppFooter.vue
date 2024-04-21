@@ -6,20 +6,24 @@ const pages = [
     title: 'Accueil'
   },
   {
-    to: '#natural-care',
+    to: '/#natural-care',
     title: 'Les soins naturels'
   },
   {
-    to: '#about',
+    to: '/#about',
     title: 'À propos'
   },
   {
-    to: '#pricing',
+    to: '/#pricing',
     title: 'La séance'
   },
   {
-    to: '#contact',
+    to: '/#contact',
     title: 'Contact'
+  },
+  {
+    to: '/faq',
+    title: 'Aide'
   }
 ]
 </script>
@@ -31,42 +35,44 @@ const pages = [
       <icon-leaves css-class="h-20 w-20 text-green-900 block -mt-3" />
       <div class="font-dancing text-3xl">La petite plante</div>
     </div>
-    <div class="w-full md:w-1/3 p-5 flex flex-col items-center justify-center">
+    <div class="w-full md:w-1/3 p-5 flex flex-col items-center justify-start">
       <div>
         <div class="text-xl font-bold mb-3">Navigation</div>
-        <router-link v-for="page in pages" :key="page.to" :to="page.to" class="block my-1 hover:underline">{{
+        <router-link v-for="page in pages" :key="page.to" :to="page.to" class="block my-2 hover:underline">{{
           page.title
         }}</router-link>
         <a
           href="https://petiteplante.simplybook.it"
           target="_blank"
-          class="block my-1 hover:underline"
+          class="block my-2 hover:underline"
         >Espace réservation</a>
+        <router-link to="/legal-notice" class="block my-2 hover:underline">Mentions légales</router-link>
+        <router-link to="/privacy-policy" class="block my-2 hover:underline">Politique de confidentialité</router-link>
       </div>
     </div>
     <div class="w-full md:w-1/3 p-5 flex flex-col items-center justify-center">
       <div>
         <div class="text-xl font-bold mb-3">Liens utiles</div>
-        <a class="block text-blue-500 underline" href="https://lafourche.fr/">La fourche</a>
-        <a class="block text-blue-500 underline" href="https://www.dieti-natura.com/"
+        <a class="block text-blue-500 underline my-2" href="https://lafourche.fr/">La fourche</a>
+        <a class="block text-blue-500 underline my-2" href="https://www.dieti-natura.com/"
           >Dieti Natura</a
         >
-        <a class="block text-blue-500 underline" href="https://www.mycosmetik.fr/">Mycosmetik</a>
-        <a class="block text-blue-500 underline" href="https://www.lesfleursdebach.com/"
+        <a class="block text-blue-500 underline my-2" href="https://www.mycosmetik.fr/">Mycosmetik</a>
+        <a class="block text-blue-500 underline my-2" href="https://www.lesfleursdebach.com/"
           >Les fleurs de Bach</a
         >
-        <a class="block text-blue-500 underline" href="https://www.lesfleursdelatlas.com/"
+        <a class="block text-blue-500 underline my-2" href="https://www.lesfleursdelatlas.com/"
           >Les fleurs de l'atlas</a
         >
-        <a class="block text-blue-500 underline" href="https://www.nutriting.com/">Nutriting</a>
-        <a class="block text-blue-500 underline" href="https://www.sunday.fr/">Sunday</a>
-        <a class="block text-blue-500 underline" href="https://www.aroma-zone.com/">Aroma zone</a>
-        Je soutiens <a class="inline-block text-blue-500 underline" href="https://www.arboretoom.com">LIKEN</a>
+        <a class="block text-blue-500 underline my-2" href="https://www.nutriting.com/">Nutriting</a>
+        <a class="block text-blue-500 underline my-2" href="https://www.sunday.fr/">Sunday</a>
+        <a class="block text-blue-500 underline my-2" href="https://www.aroma-zone.com/">Aroma zone</a>
+        Je soutiens <a class="inline-block text-blue-500 underline my-2" href="https://www.arboretoom.com">LIKEN</a>
       </div>
     </div>
     <div class="w-full flex justify-center p-3">
       <span class="mx-5">Copyright © 2024</span> |
-      <span class="mx-5">Tous Droits Réservés La petite plante - SASU capital social 100 € - 924 944 366 RCS PAU</span> |
+      <span class="mx-5">Tous Droits Réservés - La petite plante - SASU capital social 100 € - 924 944 366 RCS PAU</span> |
       <span class="mx-5"
         >Images conçues par
         <a class="text-blue-500 underline" href="https://fr.freepik.com/">Freepik</a></span

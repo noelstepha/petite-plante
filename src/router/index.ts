@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import FAQView from "@/views/FAQView.vue";
+import LegalNotice from "@/views/LegalNotice.vue";
+import PrivacyPolicy from "@/views/PrivacyPolicy.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -9,6 +11,16 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
+    },
+    {
+      path: '/legal-notice',
+      name: "legal-notice",
+      component: LegalNotice
+    },
+    {
+      path: '/privacy-policy',
+      name: "privacy-policy",
+      component: PrivacyPolicy
     },
     {
       path: '/faq',

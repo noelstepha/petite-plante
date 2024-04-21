@@ -11,19 +11,19 @@ export default {
           title: 'Accueil'
         },
         {
-          to: '#natural-care',
+          to: '/#natural-care',
           title: 'Les soins naturels'
         },
         {
-          to: '#about',
+          to: '/#about',
           title: 'À propos'
         },
         {
-          to: '#pricing',
+          to: '/#pricing',
           title: 'La séance'
         },
         {
-          to: '#contact',
+          to: '/#contact',
           title: 'Contact'
         },
       ]

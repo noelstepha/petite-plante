@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.19",
+    "marked": "^12.0.2",
     "pinia": "^2.1.7",
+    "vite-plugin-compression2": "^1.1.0",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5"
   },

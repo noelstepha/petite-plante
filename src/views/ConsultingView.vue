@@ -34,6 +34,7 @@ import BookingWidget from "@/components/BookingWidget.vue";
           <article-title text="Tarif" secondary></article-title>
           <h1 class="font-dancing text-5xl my-8 text-green-900">50 € pour la téléséance et les conseils</h1>
           <p class="text-justify lg:text-lg">
+            Puis 35 € pour la séance de suivi.
             Tout déplacement à domicile est en supplément et les règlements pourront se faire alors par carte bancaire, chèque ou espèce.<br /><br />
 
             Concernant l'achat, en supplément, des produits conseillés :

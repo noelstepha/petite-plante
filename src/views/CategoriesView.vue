@@ -7,7 +7,7 @@ import ArticleTitle from "@/components/ArticleTitle.vue";
 <template>
   <section class="px-20 pb-10 my-10">
     <div>
-      <article-title text="Les produits naturels" center/>
+      <article-title text="Les solutions naturelles" center/>
     <div class="flex flex-wrap justify-center mt-10">
       <category-item
         title="Phytothérapie"

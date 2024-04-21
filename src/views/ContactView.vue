@@ -8,10 +8,10 @@ import ArticleTitle from '@/components/ArticleTitle.vue'
     <article-title text="Contact" secondary center></article-title>
     <h1 class="font-dancing text-5xl my-5 text-brown-900 text-center">Des questions ?</h1>
     <div class="lg:text-lg text-justify md:w-2/3 md:m-auto">
-      Les séances se déroulent à distance, vous offrant confort et praticité.<br /><br />
-      Je suis là pour répondre à toutes vos questions et vous guider dans le processus de
+      Les séances se déroulent à distance, vous offrant confort et praticité. Pour plus de renseignement sur le processus de réservation,
+      vous pouvez consulter <router-link to="/faq" class="text-blue-600 hover:underline">la page d'aide</router-link>.<br /><br />
+      Vous pouvez aussi me contacter par téléphone ou par e-mail, je suis là pour répondre à toutes vos questions et vous guider dans le processus de
       réservation si besoin.
-      N'hésitez pas à me contacter par téléphone ou par e-mail.
     </div>
 
     <div class="flex flex-col md:flex-row pt-20 pb-10">
