@@ -38,36 +38,36 @@ const pages = [
     <div class="w-full md:w-1/3 p-5 flex flex-col items-center justify-start">
       <div>
         <div class="text-xl font-bold mb-3">Navigation</div>
-        <router-link v-for="page in pages" :key="page.to" :to="page.to" class="block my-2 hover:underline">{{
+        <router-link v-for="page in pages" :key="page.to" :to="page.to" class="block py-3 hover:underline">{{
           page.title
         }}</router-link>
         <a
           href="https://petiteplante.simplybook.it"
           target="_blank"
-          class="block my-2 hover:underline"
+          class="block py-3 hover:underline"
         >Espace réservation</a>
-        <router-link to="/legal-notice" class="block my-2 hover:underline">Mentions légales</router-link>
-        <router-link to="/privacy-policy" class="block my-2 hover:underline">Politique de confidentialité</router-link>
+        <router-link to="/legal-notice" class="block py-3 hover:underline">Mentions légales</router-link>
+        <router-link to="/privacy-policy" class="block py-3 hover:underline">Politique de confidentialité</router-link>
       </div>
     </div>
     <div class="w-full md:w-1/3 p-5 flex flex-col items-center justify-center">
       <div>
         <div class="text-xl font-bold mb-3">Liens utiles</div>
-        <a class="block text-blue-500 underline my-2" href="https://lafourche.fr/">La fourche</a>
-        <a class="block text-blue-500 underline my-2" href="https://www.dieti-natura.com/"
+        <a class="block text-blue-500 underline py-3" href="https://lafourche.fr/">La fourche</a>
+        <a class="block text-blue-500 underline py-3" href="https://www.dieti-natura.com/"
           >Dieti Natura</a
         >
-        <a class="block text-blue-500 underline my-2" href="https://www.mycosmetik.fr/">Mycosmetik</a>
-        <a class="block text-blue-500 underline my-2" href="https://www.lesfleursdebach.com/"
+        <a class="block text-blue-500 underline py-3" href="https://www.mycosmetik.fr/">Mycosmetik</a>
+        <a class="block text-blue-500 underline py-3" href="https://www.lesfleursdebach.com/"
           >Les fleurs de Bach</a
         >
-        <a class="block text-blue-500 underline my-2" href="https://www.lesfleursdelatlas.com/"
+        <a class="block text-blue-500 underline py-3" href="https://www.lesfleursdelatlas.com/"
           >Les fleurs de l'atlas</a
         >
-        <a class="block text-blue-500 underline my-2" href="https://www.nutriting.com/">Nutriting</a>
-        <a class="block text-blue-500 underline my-2" href="https://www.sunday.fr/">Sunday</a>
-        <a class="block text-blue-500 underline my-2" href="https://www.aroma-zone.com/">Aroma zone</a>
-        Je soutiens <a class="inline-block text-blue-500 underline my-2" href="https://www.arboretoom.com">LIKEN</a>
+        <a class="block text-blue-500 underline py-3" href="https://www.nutriting.com/">Nutriting</a>
+        <a class="block text-blue-500 underline py-3" href="https://www.sunday.fr/">Sunday</a>
+        <a class="block text-blue-500 underline py-3-2" href="https://www.aroma-zone.com/">Aroma zone</a>
+        Je soutiens <a class="inline-block text-blue-500 underline py-3" href="https://www.arboretoom.com">LIKEN</a>
       </div>
     </div>
     <div class="w-full flex justify-center p-3">

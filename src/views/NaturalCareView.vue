@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import ArticleTitle from '@/components/ArticleTitle.vue'
+import {useDeviceStore} from "@/stores/device";
+const { isMobile } = useDeviceStore()
 </script>
 
 <template>
   <article id="natural-care" class="py-10">
     <section class="flex flex-col lg:flex-row p-page">
-      <img class="w-full md:w-2/3 lg:w-1/2 pt-10 lg:pr-5 m-auto" src="/img/natural-care.png" alt="natural-care" />
+      <img class="w-full md:w-2/3 lg:w-1/2 pt-10 lg:pr-5 m-auto" :src="`/img/${isMobile ? 'mobile/' : ''}natural-care.png`" alt="natural-care" />
       <div class="w-full m-auto px-5 lg:text-lg">
         <article-title text="Les conseils au naturel"/>
         <h1 class="font-dancing text-4xl my-3 mt-5 text-green-800">

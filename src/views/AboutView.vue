@@ -2,6 +2,8 @@
 import IconFlowerEmblem from '@/components/icons/IconFlowerEmblem.vue'
 import ArticleTitle from '@/components/ArticleTitle.vue'
 import WaveDecorator from "@/components/icons/WaveDecorator.vue";
+import {useDeviceStore} from "@/stores/device";
+const { isMobile } = useDeviceStore()
 </script>
 
 <template>
@@ -36,12 +38,12 @@ import WaveDecorator from "@/components/icons/WaveDecorator.vue";
         </div>
       </section>
       <div class="relative w-full bg-points mt-20">
-        <img src="/img/serums.png" class="w-5/6 w-max-original m-auto" alt="serums"/>
+        <img :src="`/img/${isMobile ? 'mobile/' : ''}serums.png`" class="w-5/6 w-max-original m-auto" alt="serums"/>
       </div>
     </div>
     <section class="bg-amber-100 pt-10 pb-20 flex flex-col lg:flex-row items-center p-page">
       <div class="w-full bg-points py-10 hidden lg:block">
-        <img src="/img/spices.png" class="w-5/6 m-auto" alt="spices"/>
+        <img :src="`/img/${isMobile ? 'mobile/' : ''}spices.png`" class="w-5/6 m-auto" alt="spices"/>
       </div>
       <div class="w-full ml-0 lg:ml-10">
         <article-title text="Ma déontologie"></article-title>
@@ -79,7 +81,7 @@ import WaveDecorator from "@/components/icons/WaveDecorator.vue";
         </div>
       </div>
       <div class="w-full bg-points mt-10 lg:hidden">
-        <img src="/img/spices.png" class="w-5/6 m-auto" alt="spices" />
+        <img :src="`/img/${isMobile ? 'mobile/' : ''}spices.png`" class="w-5/6 m-auto" alt="spices" />
       </div>
     </section>
   </article>

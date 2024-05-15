@@ -11,6 +11,8 @@ import WaveDecorator from '@/components/icons/WaveDecorator.vue'
 import BrushEffect from '@/components/icons/BrushEffect.vue'
 import BrushSeparator from '@/components/icons/BrushSeparator.vue'
 import BookingWidget from "@/components/BookingWidget.vue";
+import {useDeviceStore} from "@/stores/device";
+const { isMobile } = useDeviceStore()
 </script>
 
 <template>
@@ -42,7 +44,7 @@ import BookingWidget from "@/components/BookingWidget.vue";
           </p>
         </div>
         <div class="w-full">
-          <img src="/img/teleconsultation.png" class="m-auto" alt="teleconsultation"/>
+          <img :src="`/img/${isMobile ? 'mobile/' : ''}teleconsultation.png`" class="m-auto" alt="teleconsultation"/>
         </div>
       </div>
       <div class="py-5 mt-5">
