@@ -66,7 +66,7 @@ const pages = [
         >
         <a class="block text-blue-500 underline py-3" href="https://www.nutriting.com/">Nutriting</a>
         <a class="block text-blue-500 underline py-3" href="https://www.sunday.fr/">Sunday</a>
-        <a class="block text-blue-500 underline py-3-2" href="https://www.aroma-zone.com/">Aroma zone</a>
+        <a class="block text-blue-500 underline py-3" href="https://www.aroma-zone.com/">Aroma zone</a>
         Je soutiens <a class="inline-block text-blue-500 underline py-3" href="https://www.arboretoom.com">LIKEN</a>
       </div>
     </div>
