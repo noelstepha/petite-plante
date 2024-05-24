@@ -18,11 +18,11 @@ const { isMobile } = useDeviceStore()
     </div>
 
     <div class="flex flex-col md:flex-row pt-20 pb-10">
-      <div class="flex flex-col items-center justify-center w-full mb-10 md:mb-0">
+      <div class="flex flex-col items-center justify-center w-full">
         <img :src="`/img/${isMobile ? 'mobile/' : ''}phone-drawing.png`" alt="phone" class="h-20 w-16 mb-5" />
         <a href="tel:+33683196971" class="font-bold text-xl text-red-950 hover:underline">06 83 19 69 71</a>
       </div>
-      <div class="flex flex-col items-center justify-center w-full">
+      <div class="flex flex-col items-center justify-center w-full mt-10 md:mt-0">
         <img :src="`/img/${isMobile ? 'mobile/' : ''}mail-drawing.png`" alt="email" class="h-20 w-28 mb-5" />
         <div>
           <a href="mailto:contact@lapetiteplante.fr" class="font-bold text-xl text-red-950 hover:underline"
@@ -30,13 +30,13 @@ const { isMobile } = useDeviceStore()
           >
         </div>
       </div>
-      <div class="flex flex-col items-center justify-center w-full">
+      <div class="flex flex-col items-center justify-center w-full mt-10 md:mt-0">
         <img :src="`/img/facebook.png`" alt="email" class="h-20 w-20 mb-5" />
         <a href="https://www.facebook.com/profile.php?id=61558502530004" class="font-bold text-xl text-red-950 hover:underline"
         >La Petite Plante</a
         >
       </div>
-      <div class="flex flex-col items-center justify-center w-full">
+      <div class="flex flex-col items-center justify-center w-full mt-10 md:mt-0">
         <img :src="`/img/instagram.png`" alt="email" class="h-20 w-20 mb-5" />
         <a href="https://www.instagram.com/petiteplante64" class="font-bold text-xl text-red-950 hover:underline"
         >petiteplante64</a
