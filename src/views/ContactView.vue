@@ -13,7 +13,8 @@ const { isMobile } = useDeviceStore()
       Les séances se déroulent à distance, vous offrant confort et praticité. Pour plus de renseignement sur le processus de réservation,
       vous pouvez consulter <router-link to="/faq" class="text-blue-600 hover:underline">la page d'aide</router-link>.<br /><br />
       Vous pouvez aussi me contacter par téléphone ou par e-mail, je suis là pour répondre à toutes vos questions et vous guider dans le processus de
-      réservation si besoin.
+      réservation si besoin.<br/><br/>
+      Besoin de conseils et astuces personnalisés ? Suivez-moi sur les réseaux sociaux pour des conseils et astuces adaptés à vos besoins.
     </div>
 
     <div class="flex flex-col md:flex-row pt-20 pb-10">
@@ -28,6 +29,18 @@ const { isMobile } = useDeviceStore()
             >contact@lapetiteplante.fr</a
           >
         </div>
+      </div>
+      <div class="flex flex-col items-center justify-center w-full">
+        <img :src="`/img/facebook.png`" alt="email" class="h-20 w-20 mb-5" />
+        <a href="https://www.facebook.com/profile.php?id=61558502530004" class="font-bold text-xl text-red-950 hover:underline"
+        >La Petite Plante</a
+        >
+      </div>
+      <div class="flex flex-col items-center justify-center w-full">
+        <img :src="`/img/instagram.png`" alt="email" class="h-20 w-20 mb-5" />
+        <a href="https://www.instagram.com/petiteplante64" class="font-bold text-xl text-red-950 hover:underline"
+        >petiteplante64</a
+        >
       </div>
     </div>
   </section>

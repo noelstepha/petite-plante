@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import {createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import FAQView from "@/views/FAQView.vue";
 import LegalNotice from "@/views/LegalNotice.vue";
@@ -30,7 +30,7 @@ const router = createRouter({
 
   ],
   scrollBehavior(to) {
-    if (to.fullPath === "/") return { top: 0 }
+    if (to.fullPath === "/" || !to.hash) return { top: 0 }
     return {
       el: to.hash,
       top: 10,

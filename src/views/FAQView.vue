@@ -43,7 +43,7 @@ export default {
             data-state="closed"
             class="flex items-center justify-between w-full px-4 py-5 sm:p-6"
           >
-            <span class="flex text-lg font-semibold text-black">Comment réserver une séance ?</span>
+            <span class="flex text-lg font-semibold text-black text-left">Comment réserver une séance ?</span>
             <svg
               id="arrow1"
               xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@ export default {
             data-state="closed"
             class="flex items-center justify-between w-full px-4 py-5 sm:p-6"
           >
-            <span class="flex text-lg font-semibold text-black">Comment annuler une séance ?</span>
+            <span class="flex text-lg font-semibold text-black text-left">Comment annuler une séance ?</span>
             <svg
               id="arrow2"
               xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +126,7 @@ export default {
             data-state="closed"
             class="flex items-center justify-between w-full px-4 py-5 sm:p-6"
           >
-            <span class="flex text-lg font-semibold text-black"
+            <span class="flex text-lg font-semibold text-black text-left"
               >Comment changer la date d'une réservation ?</span
             >
             <svg
@@ -167,7 +167,7 @@ export default {
             data-state="closed"
             class="flex items-center justify-between w-full px-4 py-5 sm:p-6"
           >
-            <span class="flex text-lg font-semibold text-black"
+            <span class="flex text-lg font-semibold text-black text-left"
               >Comment accéder à la séance lors du jour du rendez-vous ?</span
             >
             <svg
