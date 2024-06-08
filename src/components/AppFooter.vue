@@ -48,6 +48,7 @@ const pages = [
         >Espace réservation</a>
         <router-link to="/legal-notice" class="block py-3 hover:underline">Mentions légales</router-link>
         <router-link to="/privacy-policy" class="block py-3 hover:underline">Politique de confidentialité</router-link>
+        <router-link to="/term-and-conditions" class="block py-3 hover:underline">Conditions générales de vente</router-link>
       </div>
     </div>
     <div class="w-full md:w-1/3 p-5 flex flex-col items-center justify-center">

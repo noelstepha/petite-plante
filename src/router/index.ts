@@ -1,9 +1,10 @@
-import {createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import FAQView from "@/views/FAQView.vue";
-import LegalNotice from "@/views/LegalNotice.vue";
-import PrivacyPolicy from "@/views/PrivacyPolicy.vue";
-import BlogView from "@/views/blog/BlogView.vue";
+import FAQView from '@/views/FAQView.vue'
+import LegalNotice from '@/views/LegalNotice.vue'
+import PrivacyPolicy from '@/views/PrivacyPolicy.vue'
+import BlogView from '@/views/blog/BlogView.vue'
+import TermConditionsView from '@/views/TermConditionsView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,31 +16,36 @@ const router = createRouter({
     },
     {
       path: '/legal-notice',
-      name: "legal-notice",
+      name: 'legal-notice',
       component: LegalNotice
     },
     {
       path: '/privacy-policy',
-      name: "privacy-policy",
+      name: 'privacy-policy',
       component: PrivacyPolicy
     },
     {
+      path: '/term-and-conditions',
+      name: 'term-and-conditions',
+      component: TermConditionsView
+    },
+    {
       path: '/faq',
-      name: "faq",
+      name: 'faq',
       component: FAQView
     },
     {
       path: '/blog',
-      name: "blog",
+      name: 'blog',
       component: BlogView
     }
   ],
   scrollBehavior(to) {
-    if (to.fullPath === "/" || !to.hash) return { top: 0 }
+    if (to.fullPath === '/' || !to.hash) return { top: 0 }
     return {
       el: to.hash,
       top: 10,
-      behavior: "smooth"
+      behavior: 'smooth'
     }
   }
 })
