@@ -82,7 +82,7 @@ function setIsOpen(value: boolean) {
         leave-to="opacity-0 scale-95"
       >
         <div
-          class="fixed inset-0 mt-20 md:w-4/5 md:h-4/5 m-auto overflow-y-auto bg-[#f7f7f7] rounded"
+          class="fixed inset-0 mt-20 md:w-5/6 md:h-5/6 m-auto overflow-y-auto bg-[#f7f7f7] rounded"
         >
           <!-- Close button -->
           <div class="flex justify-end z-20">
@@ -111,7 +111,7 @@ function setIsOpen(value: boolean) {
             </button>
           </div>
           <!-- Container to center the panel -->
-          <div class="flex min-h-full items-center justify-center p-4 z-10 overflow-hidden">
+          <div class="flex min-h-full items-center justify-center z-10 overflow-hidden">
             <DialogPanel class="w-full rounded bg-white">
               <div id="sbw_iaik34" class="w-full go-up" ref="widgetContainerRef"></div>
             </DialogPanel>

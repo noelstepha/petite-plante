@@ -37,7 +37,7 @@ const { isMobile } = useDeviceStore()
           <h1 class="font-dancing text-5xl my-8 text-green-900">50 € pour la téléséance et les conseils</h1>
           <p class="text-justify lg:text-lg">
             Puis 35 € pour la séance de suivi.
-            Une séance à domicile est possible au tarif de 60 € (séance de suivi 45 €) et les règlements pourront se faire alors par carte bancaire, chèque, espèce ou virement instantané.<br /><br />
+            Une séance à domicile est possible au tarif de 60 € (séance de suivi à domicile 45 €) et les règlements pourront se faire alors par carte bancaire, chèque, espèce ou virement instantané.<br /><br />
 
             Concernant l'achat, en supplément, des produits conseillés :
             Vous les trouverez en magasin bio ou en pharmacie. Je mets aussi à votre disposition, sur mon site, des liens internets.
