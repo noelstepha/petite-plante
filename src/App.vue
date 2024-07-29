@@ -10,7 +10,9 @@ import AppFooter from "@/components/AppFooter.vue";
       <nav-bar />
     </header>
     <main>
-      <router-view />
+      <Suspense>
+        <router-view />
+      </Suspense>
     </main>
     <app-footer />
   </div>

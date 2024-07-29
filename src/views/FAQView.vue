@@ -1,8 +1,6 @@
 <script lang="ts">
 import SecondaryBanner from '@/components/SecondaryBanner.vue'
-import { marked } from 'marked'
 export default {
-  methods: { marked },
   components: { SecondaryBanner },
   mounted() {
     // JavaScript to toggle the answers and rotate the arrows

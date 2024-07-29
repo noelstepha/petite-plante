@@ -1,0 +1,27 @@
+[
+  {
+    "label": "Phytothérapie",
+    "value": "phytotherapy",
+    "color": "#15803d"
+  },
+  {
+    "label": "Aromathérapie",
+    "value": "aromatherapy",
+    "color": "#0e7490"
+  },
+  {
+    "label": "Apithérapie",
+    "value": "apitherapy",
+    "color": "#f59e0b"
+  },
+  {
+    "label": "Gemmothérapie",
+    "value": "gemmotherapy",
+    "color": "#7c3aed"
+  },
+  {
+    "label": "Micronutrition",
+    "value": "micronutaition",
+    "color": "#e11d48"
+  }
+]

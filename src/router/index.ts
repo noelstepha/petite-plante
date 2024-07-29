@@ -5,6 +5,7 @@ import LegalNotice from '@/views/LegalNotice.vue'
 import PrivacyPolicy from '@/views/PrivacyPolicy.vue'
 import BlogView from '@/views/blog/BlogView.vue'
 import TermConditionsView from '@/views/TermConditionsView.vue'
+import BlogArticleView from '@/views/blog/BlogArticleView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +39,11 @@ const router = createRouter({
       path: '/blog',
       name: 'blog',
       component: BlogView
+    },
+    {
+      path: '/blog/:articleId',
+      name: 'article',
+      component: BlogArticleView
     }
   ],
   scrollBehavior(to) {
