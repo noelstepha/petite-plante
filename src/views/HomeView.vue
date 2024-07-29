@@ -1,11 +1,29 @@
 <script setup lang="ts">
 import ImgBanner from '@/components/ImgBanner.vue'
 import AboutView from '@/views/AboutView.vue'
-import ConsultingView from "@/views/ConsultingView.vue";
-import NaturalCareView from "@/views/NaturalCareView.vue";
-import WarningView from "@/views/WarningView.vue";
-import CategoriesView from "@/views/CategoriesView.vue";
-import ContactView from "@/views/ContactView.vue";
+import ConsultingView from '@/views/ConsultingView.vue'
+import NaturalCareView from '@/views/NaturalCareView.vue'
+import WarningView from '@/views/WarningView.vue'
+import CategoriesView from '@/views/CategoriesView.vue'
+import ContactView from '@/views/ContactView.vue'
+import { useHead } from '@vueuse/head'
+
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Les conseils de La petite plante',
+  alternateName: ['Conseils par La Petite Plante', 'La petite plante 🪴'],
+  url: 'https://lapetiteplante.fr/'
+}
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      textContent: JSON.stringify(jsonld)
+    }
+  ]
+})
 </script>
 
 <template>

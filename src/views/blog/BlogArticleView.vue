@@ -14,6 +14,7 @@ import markdownIns from 'markdown-it-ins'
 import markdownMark from 'markdown-it-mark'
 import { markdownItTable } from 'markdown-it-table'
 import { full as emoji } from 'markdown-it-emoji'
+import {useHead} from "@vueuse/head";
 
 const markdown = markdownit({
   html: true,
@@ -36,6 +37,32 @@ const articleId = route.params.articleId as string
 const blogStore = useBlogStore()
 await blogStore.initArticles()
 const article = blogStore.article(articleId)
+
+const jsonld = {
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": article?.title,
+  "image": [
+    article?.cover,
+  ],
+  "datePublished": "2024-30-07T08:00:00+08:00",
+  "dateModified": "2024-30-07T08:00:00+08:00",
+  "author": [{
+    "@type": "Person",
+    "name": "La petite plante",
+    "url": "https://lapetiteplante.fr"
+  }]
+}
+
+useHead({
+  title: `La petite plante - ${article?.title}`,
+  script: [
+    {
+      type: "application/ld+json",
+      textContent: JSON.stringify(jsonld)
+    }
+  ]
+})
 </script>
 
 <template>
