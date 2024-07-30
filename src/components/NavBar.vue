@@ -26,6 +26,10 @@ export default {
           to: '/#contact',
           title: 'Contact'
         },
+        {
+          to: '/blog',
+          title: 'Blog'
+        },
       ]
     }
   },

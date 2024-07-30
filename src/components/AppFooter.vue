@@ -24,6 +24,10 @@ const pages = [
   {
     to: '/faq',
     title: 'Aide'
+  },
+  {
+    to: '/blog',
+    title: 'Blog'
   }
 ]
 </script>

@@ -14,13 +14,14 @@ import markdownIns from 'markdown-it-ins'
 import markdownMark from 'markdown-it-mark'
 import { markdownItTable } from 'markdown-it-table'
 import { full as emoji } from 'markdown-it-emoji'
-import {useHead} from "@vueuse/head";
+import { useHead } from '@vueuse/head'
 
 const markdown = markdownit({
   html: true,
   linkify: true,
   typographer: true
-}).use(MarkdownItAbbr)
+})
+  .use(MarkdownItAbbr)
   .use(MarkdownItAnchor)
   .use(MarkdownItFootnote)
   .use(MarkdownItHighlightjs)
@@ -39,26 +40,44 @@ await blogStore.initArticles()
 const article = blogStore.article(articleId)
 
 const jsonld = {
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "headline": article?.title,
-  "image": [
-    article?.cover,
-  ],
-  "datePublished": "2024-30-07T08:00:00+08:00",
-  "dateModified": "2024-30-07T08:00:00+08:00",
-  "author": [{
-    "@type": "Person",
-    "name": "La petite plante",
-    "url": "https://lapetiteplante.fr"
-  }]
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: article?.title,
+  image: [article?.cover],
+  datePublished: '2024-30-07T08:00:00+08:00',
+  dateModified: '2024-30-07T08:00:00+08:00',
+  author: [
+    {
+      '@type': 'Person',
+      name: 'La petite plante',
+      url: 'https://lapetiteplante.fr'
+    }
+  ]
 }
 
 useHead({
   title: `La petite plante - ${article?.title}`,
+  meta: [
+    {
+      name: `og:title`,
+      content: article?.title
+    },
+    {
+      name: `og:image`,
+      content: article?.cover
+    },
+    {
+      name: `og:type`,
+      content: `article`
+    },
+    {
+      name: `og:url`,
+      content: `https://lapetiteplante.fr/blog/${article?.id}`
+    }
+  ],
   script: [
     {
-      type: "application/ld+json",
+      type: 'application/ld+json',
       textContent: JSON.stringify(jsonld)
     }
   ]
@@ -71,7 +90,7 @@ useHead({
     <h1 class="text-3xl text-center w-full mb-10 mt-10">
       {{ article?.title }}
     </h1>
-    <div class="flex justify-center text-2xl my-10 ">🌿🌿🌿</div>
+    <div class="flex justify-center text-2xl my-10">🌿🌿🌿</div>
     <div class="text-lg text-justify" v-html="markdown.render(article?.body as string)" />
   </div>
 </template>
@@ -96,7 +115,7 @@ useHead({
   text-decoration: none;
 }
 .article a:hover {
-  @apply underline
+  @apply underline;
 }
 
 .article hr {

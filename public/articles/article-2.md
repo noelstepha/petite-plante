@@ -2,7 +2,7 @@ Salut les amis ! Aujourd’hui, j’ai envie de vous parler d’un sujet qui me 
 <br /><br />
 <div style="width: 40vw; text-align: center; margin: auto">
 
-![Phytotherapy](https://img.freepik.com/photos-gratuite/cuilleres-bois-vue-dessus-plantes_23-2149339713.jpg?t=st=1722168696~exp=1722172296~hmac=24b7a06fd074fda9624da3ebccb4c49a7d014dca96d5d2cb82ead9c0e316d9af&w=1800)
+![Phytotherapy](https://lapetiteplante.fr/img/blog/covers/wooden-spoons-with-plants-top-view.jpg)
 
 </div>
 <br />

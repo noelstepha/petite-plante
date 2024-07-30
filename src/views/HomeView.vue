@@ -17,6 +17,24 @@ const jsonld = {
 }
 
 useHead({
+  meta: [
+    {
+      name: `og:title`,
+      content: "La petite plante - Conseils santé et bien-être par les plantes\""
+    },
+    {
+      name: `og:image`,
+      content: "https://lapetiteplante.fr/img/logo/ss-banner.png"
+    },
+    {
+      name: `og:type`,
+      content: `website`
+    },
+    {
+      name: `og:url`,
+      content: `https://lapetiteplante.fr`
+    }
+  ],
   script: [
     {
       type: 'application/ld+json',
