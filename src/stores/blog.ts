@@ -5,7 +5,11 @@ import type { Article } from '@/models/article'
 import type { Category } from '@/models/category'
 
 export const useBlogStore = defineStore('blog', {
-  state: () => ({ articles: articles as Article[], categories: categories as Category[] }),
+  state: () => ({
+    ready: false,
+    articles: articles as Article[],
+    categories: categories as Category[]
+  }),
   getters: {
     article: (state) => {
       return (id: string) => state.articles.find((article) => article.id === id)
@@ -16,7 +20,8 @@ export const useBlogStore = defineStore('blog', {
   },
   actions: {
     async getArticleBody(article: Article): Promise<string> {
-      const response = await fetch(article.path)
+      const url = typeof window !== "undefined" ? article.path : `https://lapetiteplante.fr${article.path}`
+      const response = await fetch(url)
       return await response.text()
     },
     async initArticles() {
@@ -26,6 +31,7 @@ export const useBlogStore = defineStore('blog', {
           body: await this.getArticleBody(article as Article)
         }))
       )
+      this.ready = true
     }
   }
 })

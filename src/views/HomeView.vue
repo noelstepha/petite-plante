@@ -6,7 +6,7 @@ import NaturalCareView from '@/views/NaturalCareView.vue'
 import WarningView from '@/views/WarningView.vue'
 import CategoriesView from '@/views/CategoriesView.vue'
 import ContactView from '@/views/ContactView.vue'
-import { useHead } from '@vueuse/head'
+import { useHead } from '@unhead/vue'
 
 const jsonld = {
   '@context': 'https://schema.org',
@@ -17,21 +17,26 @@ const jsonld = {
 }
 
 useHead({
+  title: `La petite plante - Conseils santé et bien-être par les plantes`,
   meta: [
     {
-      name: `og:title`,
-      content: "La petite plante - Conseils santé et bien-être par les plantes\""
+      name: `title`,
+      content: `La petite plante - Conseils santé et bien-être par les plantes`
     },
     {
-      name: `og:image`,
+      property: `og:title`,
+      content: "La petite plante - Conseils santé et bien-être par les plantes"
+    },
+    {
+      property: `og:image`,
       content: "https://lapetiteplante.fr/img/logo/ss-banner.png"
     },
     {
-      name: `og:type`,
+      property: `og:type`,
       content: `website`
     },
     {
-      name: `og:url`,
+      property: `og:url`,
       content: `https://lapetiteplante.fr`
     }
   ],

@@ -14,7 +14,7 @@ import markdownIns from 'markdown-it-ins'
 import markdownMark from 'markdown-it-mark'
 import { markdownItTable } from 'markdown-it-table'
 import { full as emoji } from 'markdown-it-emoji'
-import { useHead } from '@vueuse/head'
+import { useHead } from '@unhead/vue'
 
 const markdown = markdownit({
   html: true,
@@ -34,7 +34,8 @@ const markdown = markdownit({
   .use(markdownMark)
 
 const route = useRoute()
-const articleId = route.params.articleId as string
+const url = route.path.split("/")
+const articleId = url[url.length - 1] // route.params.articleId as string
 const blogStore = useBlogStore()
 await blogStore.initArticles()
 const article = blogStore.article(articleId)
@@ -59,19 +60,23 @@ useHead({
   title: `La petite plante - ${article?.title}`,
   meta: [
     {
-      name: `og:title`,
+      name: `title`,
+      content: `La petite plante - ${article?.title}`
+    },
+    {
+      property: `og:title`,
       content: article?.title
     },
     {
-      name: `og:image`,
+      property: `og:image`,
       content: article?.cover
     },
     {
-      name: `og:type`,
+      property: `og:type`,
       content: `article`
     },
     {
-      name: `og:url`,
+      property: `og:url`,
       content: `https://lapetiteplante.fr/blog/${article?.id}`
     }
   ],

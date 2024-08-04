@@ -42,7 +42,7 @@ import ArticleTitle from "@/components/ArticleTitle.vue";
         img="categories/huiles-vegetales.png"
         :color="colors.green['100']"
       >
-        <span class="font-dancing text-xl md:text-2xl text-green-800">Les huiles végétales</span><br/>sont extraits d'une plante oléagineuse, d'une graine, de noix ou de fruits. Leurs acides gras sont ingérés via l'alimentation ou utilisés en synergie avec d'autres produits naturels lors d'un soin de la peau.
+        <span class="font-dancing text-xl md:text-2xl text-green-800">Les huiles végétales</span><br/>sont extraites d'une plante oléagineuse, d'une graine, de noix ou de fruits. Leurs acides gras sont ingérés via l'alimentation ou utilisés en synergie avec d'autres produits naturels lors d'un soin de la peau.
       </category-item>
       <category-item
         title="Les fleurs de Bach"
