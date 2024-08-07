@@ -12,7 +12,7 @@ const { isMobile } = useDeviceStore()
     <div class="bg-amber-100 flex flex-col lg:flex-row items-center pb-20 p-page">
       <section class="pt-10 lg:pt-0 w-full">
         <article-title text="Qui suis-je ?"></article-title>
-        <h1 class="font-dancing text-5xl my-3 mt-10 text-brown-900">Bienvenue !</h1>
+        <h3 class="font-dancing text-5xl my-3 mt-10 text-brown-900">Bienvenue !</h3>
         <div class="flex text-justify lg:text-lg">
           <div>
             <p>
@@ -47,7 +47,7 @@ const { isMobile } = useDeviceStore()
       </div>
       <div class="w-full ml-0 lg:ml-10">
         <article-title text="Ma déontologie"></article-title>
-        <h1 class="font-dancing text-5xl my-3 mt-10 text-brown-900">Le respect</h1>
+        <h3 class="font-dancing text-5xl my-3 mt-10 text-brown-900">Le respect</h3>
         <div class="text-justify lg:text-lg">
           <p>
             Chaque client est une personne à respecter, quelle que soit sa situation, son état de

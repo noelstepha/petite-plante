@@ -16,18 +16,18 @@ const { isMobile } = useDeviceStore()
     >
       <div class="text-7xl md:text-8xl flex flex-col justify-items-center">
         <div class="m-auto"><icon-leaves class="h-20 w-20 mt-10 md:mt-20" /></div>
-        <div class="font-dancing banner-title text-green-900 mx-auto mb-5 md:mb-10 text-center">
+        <h1 class="font-dancing banner-title text-green-900 mx-auto mb-5 md:mb-10 text-center">
           La petite plante
-        </div>
-        <div class="font-dancing text-4xl md:text-6xl text-green-700 mb-5 md:mb-10">
+        </h1>
+        <h2 class="font-dancing text-4xl md:text-6xl text-green-700 mb-5 md:mb-10">
           Conseils en produits de <span class="hightlight-title">soins naturels</span>
-        </div>
+        </h2>
 
-        <div
+        <h3
           class="uppercase text-xl md:text-2xl font-light text-green-700 leading-2 mt-5 md:mt-10"
         >
           La nature au service de votre bien-être
-        </div>
+        </h3>
 
         <div class="flex flex-wrap justify-center py-5 md:py-10">
           <booking-widget />

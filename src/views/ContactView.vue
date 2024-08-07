@@ -8,7 +8,7 @@ const { isMobile } = useDeviceStore()
   <div class="w-full h-20 brush"></div>
   <section id="contact" class="section pb-5 lg:py-16 p-page bg2">
     <article-title text="Contact" secondary center></article-title>
-    <h1 class="font-dancing text-5xl my-5 text-brown-900 text-center">Des questions ?</h1>
+    <h3 class="font-dancing text-5xl my-5 text-brown-900 text-center">Des questions ?</h3>
     <div class="lg:text-lg text-justify md:w-2/3 md:m-auto">
       Les séances se déroulent à distance, vous offrant confort et praticité. Pour plus de renseignement sur le processus de réservation,
       vous pouvez consulter <router-link to="/faq" class="text-blue-600 hover:underline">la page d'aide</router-link>.<br /><br />
@@ -31,13 +31,13 @@ const { isMobile } = useDeviceStore()
         </div>
       </div>
       <div class="flex flex-col items-center justify-center w-full mt-10 md:mt-0">
-        <img :src="`/img/facebook.png`" alt="email" class="h-20 w-20 mb-5" />
+        <img :src="`/img/facebook.png`" alt="facebook" class="h-20 w-20 mb-5" />
         <a href="https://www.facebook.com/profile.php?id=61558502530004" class="font-bold text-xl text-red-950 hover:underline"
         >La Petite Plante</a
         >
       </div>
       <div class="flex flex-col items-center justify-center w-full mt-10 md:mt-0">
-        <img :src="`/img/instagram.png`" alt="email" class="h-20 w-20 mb-5" />
+        <img :src="`/img/instagram.png`" alt="instagram" class="h-20 w-20 mb-5" />
         <a href="https://www.instagram.com/petiteplante64" class="font-bold text-xl text-red-950 hover:underline"
         >petiteplante64</a
         >

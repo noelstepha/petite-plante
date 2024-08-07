@@ -34,7 +34,7 @@ const { isMobile } = useDeviceStore()
       <div class="flex flex-col lg:flex-row items-center">
         <div class="w-full pt-16">
           <article-title text="Tarif" secondary></article-title>
-          <h1 class="font-dancing text-5xl my-8 text-green-900">50 € pour la téléséance et les conseils</h1>
+          <h3 class="font-dancing text-5xl my-8 text-green-900">50 € pour la téléséance et les conseils</h3>
           <p class="text-justify lg:text-lg">
             Puis 35 € pour la séance de suivi.
             Une séance à domicile est possible au tarif de 60 € (séance de suivi à domicile 45 €) et les règlements pourront se faire alors par carte bancaire, chèque, espèce ou virement instantané.<br /><br />

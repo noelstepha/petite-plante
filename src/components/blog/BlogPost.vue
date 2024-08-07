@@ -14,7 +14,7 @@ const category = blogStore.category(props.article.category)
   <div class="cursor-pointer">
     <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105">
       <a class="relative block overflow-hidden aspect-video" :href="`/blog/${article.id}`">
-        <img alt="article-thumbnail object-cover" :src="article.cover" class="transition-all" />
+        <img alt="article-thumbnail" :src="article.cover" class="transition-all" />
       </a>
     </div>
     <div class="flex flex-col justify-center lg:mt-5">

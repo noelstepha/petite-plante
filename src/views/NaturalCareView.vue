@@ -10,9 +10,9 @@ const { isMobile } = useDeviceStore()
       <img class="w-full md:w-2/3 lg:w-1/2 pt-10 lg:pr-5 m-auto" :src="`/img/${isMobile ? 'mobile/' : ''}natural-care.png`" alt="natural-care" />
       <div class="w-full m-auto px-5 lg:text-lg">
         <article-title text="Les conseils au naturel"/>
-        <h1 class="font-dancing text-4xl my-3 mt-5 text-green-800">
+        <h3 class="font-dancing text-4xl my-3 mt-5 text-green-800">
           Améliorer sa santé et son bien-être
-        </h1>
+        </h3>
         <p class="m-auto text-justify">
           Plongez dans un monde de bien-être naturel avec <span class="text-green-900 font-bold">La petite plante</span> pour découvrir le pouvoir des produits naturels.
           &nbsp;<span class="text-2xl">🌿</span><br /><br />

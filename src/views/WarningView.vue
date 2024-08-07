@@ -10,7 +10,7 @@ const { isMobile } = useDeviceStore()
       <img :src="`/img/${isMobile ? 'mobile/' : ''}warning.jpg`" class="w-2/3 m-auto" alt="allo-medecin" />
     </div>
     <div class="w-full lg:w-3/4 text-justify text-xl">
-      <h1 class="font-dancing text-5xl my-8 text-orange-400">Attention</h1>
+      <h3 class="font-dancing text-5xl my-8 text-orange-400">Attention</h3>
       <hightlight-brush color="#fee2e2">Je ne suis pas médecin</hightlight-brush> et je
       ne suis pas habilitée à faire un diagnostic ou à donner un traitement. Et je n'irai jamais à
       l'encontre d'une prescription médicale mais en complément.<br /><br />

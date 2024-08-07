@@ -12,7 +12,7 @@ const jsonld = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'Les conseils de La petite plante',
-  alternateName: ['Conseils par La Petite Plante', 'La petite plante 🪴'],
+  alternateName: ['Conseils par La Petite Plante'],
   url: 'https://lapetiteplante.fr/'
 }
 
