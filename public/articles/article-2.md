@@ -17,7 +17,7 @@ Depuis quelques années, on observe un regain d'intérêt pour les médecines al
 
 <div style="width: 90px; min-width: 80px;  float: left; padding-right: 20px;">
 
-![Minion](/img/blog/emoticone/question.png)
+![Interogative-plant](/img/blog/emoticone/question.png)
 
 </div>
 
@@ -45,7 +45,7 @@ Mais plus largement, **la phytothérapie, ce sont des plantes en même temps nut
 
 <div style="width: 90px; min-width: 80px;  float: left; padding-right: 20px;">
 
-![Minion](/img/blog/emoticone/happy-cup.png)
+![Eat-plant](/img/blog/emoticone/happy-cup.png)
 
 </div>
 
@@ -58,7 +58,7 @@ Mais plus largement, **la phytothérapie, ce sont des plantes en même temps nut
 Plusieurs raisons expliquent l’attrait pour la phytothérapie :
 
 - Les plantes sont également utilisées pour **prévenir les maladies** : vous préparer à faire face aux maladies hivernales, aux allergies saisonnières, c’est son rôle !
-- En plus de soulager les symptômes, les plantes **améliorent le bien-être général et la vitalité** : une approche holistique de la santé !
+- En plus de soulager les symptômes, les plantes **améliorent le bien-être général et la vitalité** : une approche globale de la santé !
 - Les plantes sont **douces et respectueuses de notre corps**. Elles prennent leur temps mais agissent en profondeur, sans provoquer d’effets secondaires indésirables.
 - La **large gamme de solutions (synergies plantes+teinture mère ou plantes+argiles ou tisanes+huiles essentielles, etc.)** proposée par les plantes permet une grande variété d’applications pour de nombreux maux du quotidien : rhume, maux de tête, troubles digestifs, stress, sommeil perturbé, etc. Cela les rend **redoutablement efficaces** !
 - Les plantes sont **économiques et accessibles à tous**, généralement moins chers que les médicaments. On peut les retrouver facilement dans les magasins bio, les herboristeries, les pharmacies et les parapharmacies, et même dans notre jardin !
@@ -70,53 +70,69 @@ Plusieurs raisons expliquent l’attrait pour la phytothérapie :
 
 ### 🌿 **Mais alors, pourquoi est-elle boudée par le système médical ?**
 
-C’est simple : l’industrie pharmaceutique a largement supplanté les remèdes naturels, en misant sur **des molécules chimiques plus lucratives**. Or depuis toujours, à l’exception de ces cent dernières années, les hommes n’ont eu que les plantes pour se soigner qu’il s’agisse de maladies bénignes (rhume, toux, etc.), ou plus sérieuses, telles que la tuberculose ou la malaria par exemple. Se soigner par les plantes est la plus ancienne médecine du monde et elle est à la base de la plupart de nos médicaments !
+Depuis toujours, les hommes n’ont eu que les plantes pour se soigner, qu’il s’agisse de maladies
+bénignes (rhume, toux, etc.), ou plus sérieuses, telles que la tuberculose ou la malaria par exemple.
+Se soigner par les plantes est la plus ancienne médecine du monde et elle est à la base de la plupart
+de nos médicaments. Pourtant, **durant ces cent dernières années**, la phytothérapie a souvent été
+reléguée au second plan par **la médecine moderne, centrée sur les molécules chimiques**.
+
+**Un retour aux sources est devenu nécessaire !** Il est temps de redécouvrir les bienfaits des plantes.
+Leurs propriétés thérapeutiques, souvent méconnues, offrent une **alternative intéressante aux
+traitements médicamenteux conventionnels.**
+
+**Pour rappel**, de nombreux médicaments, développés pour traiter des maladies graves, se sont
+répandus auprès de personnes atteintes de maladies bénignes qui bénéficient de leur efficacité choc,
+mais qui pâtissent aussi des risques et des effets indésirables qui leur sont attachés. Or de
+nombreuses études scientifiques confirment l’efficacité de certaines plantes dans la prévention et le
+traitement de diverses maladies.
 
 <br />
 
-<div style="display: flex; align-items: center; margin-bottom: 40px">
+### 🌿 **Quels sont les avantages de la phytothérapie par rapport à la médecine classique ?**
 
-<div style="width: 75px; min-width: 75px;  float: left; padding-right: 20px;">
-
-![Minion](/img/blog/emoticone/sad.png)
-
-</div>
-
-**Au mieux, on les ignore, au pire, on doute de leur efficacité !**
-
-</div>
-
-Même, **les facultés de médecine ainsi que les officines mettent les plantes à l’écart**. La formation des médecins en phytothérapie est souvent négligée, ce qui limite leur connaissance de ses bienfaits : aujourd’hui aucune heure de cours relative aux plantes n’est dispensée aux futurs praticiens (ils l’obtiennent en suivant une formation supplémentaire).
-
-De plus, **la majorité des médicaments phytothérapiques ne sont plus remboursés depuis un décret de 1991.** Ce fut un coup dur porté à la phytothérapie !
-
-Ainsi, plusieurs spécialités phytothérapiques contre l’anxiété et les troubles du sommeil, pourtant efficaces et peu couteuses, ont été déremboursées, ce qui a malheureusement fait migrer les prescriptions vers les benzodiazépines, **des molécules chimiques hautement dangereuses dont il est difficile de se sevrer, mais qui sont remboursées !**
-
-De nombreux médicaments, développés pour traiter des maladies graves, se sont alors répandus auprès de petits malades qui bénéficient de leur efficacité choc, mais qui pâtissent aussi des risques et des effets indésirables qui leur sont attachés.
+- **Douceur et naturalité** : Les plantes agissent en douceur sur l’organisme et présentent moins
+d’effets secondaires que les médicaments chimiques.
+- **Prévention**: La phytothérapie est particulièrement efficace pour prévenir les maladies
+chroniques et renforcer les défenses immunitaires.
+- **Complémentarité**: Elle peut être utilisée en complément des traitements médicaux
+conventionnels pour améliorer la qualité de vie des patients.
+- **Eco-responsabilité**: la culture des plantes médicinales est souvent plus respectueuse de
+l’environnement que la production de médicaments chimiques.
 
 <br />
 
-<div style="display: flex; align-items: center; margin-bottom: 40px">
+### 🌿 **Les plantes peuvent-elles faire face à la résistance aux antibiotiques ?**
 
-<div style="width: 90px; min-width: 90px; float: left; padding-right: 20px;">
+La montée de la résistance aux antibiotiques est un enjeu de santé publique majeur. Face à une
+possible impasse thérapeutique, **les plantes s’avèrent des alliées de taille**.
 
-![Minion](/img/blog/emoticone/round-eyes.png)
+Les traitements à base de plantes reviennent donc au premier plan, offrant une piste encourageante
+pour développer de nouveau traitements anti-infectieux: de plus en plus de chercheurs s’intéressent
+à leur potentiel pour lutter contre les bactéries résistantes.
+
+La phytothérapie bénéficie donc d’un regain d’intérêt de la part des professionnels de santé et du
+grand public. De nouvelles recherches sont en cours pour mieux comprendre les mécanismes
+d’action des plantes et développer de nouveaux produits thérapeutiques.
+
+<br />
+
+<div style="display: flex; align-items: center">
+
+<div style="width: 85px; min-width: 80px;  float: left; padding-right: 20px;">
+
+![Happy-plant](/img/blog/emoticone/graduated.png)
 
 </div>
 
-**De nos jours, les effets secondaires des médicaments et les scandales sanitaires sont responsables de 130 000 hospitalisations par an.**
+**Un avenir prometteur !**
 
 </div>
 
-### 🌿 **Et les antibiotiques ?**
+<br />
 
-Aujourd’hui, **les bactéries et les virus se sont peu à peu adaptés aux médicaments et leur résistent de plus en plus.** Les traitements à base de plantes reviennent donc au premier plan, car **l’efficacité des médicaments tels que les antibiotiques** **décroît** alors qu’ils sont considérés comme la solution quasi universelle aux infections graves.
-
-La montée de **l’antibiorésistance est si inquiétante** que d’ici 2050, elle pourrait causer 10 millions de décès par an si rien n’est fait (d’après un récent rapport commandé par le gouvernement anglais). La résistance bactérienne se renforce tuant chaque année 25 000 personnes en Europe. En France, 158 000 personnes sont touchées annuellement par ces bactéries résistantes (dont le fameux staphylocoque doré) et 12 500 en meurent…
-
-Ces molécules extrêmement puissantes devraient être réservées aux cas les plus graves, faute de quoi demain, on ne pourra plus soigner les infections bénignes !
-
-**Face à cette impasse thérapeutique, les plantes s’avèrent des alliées de taille**, tant pour lutter contre les virus (ce que les antibiotiques ne savent pas faire) que pour remplacer des molécules devenues inopérantes sur certaines espèces de bactéries. C’est le cas de l’Eschericia Coli qui est responsable de nombreuses infections urinaires et qui est devenue résistante aux antibiotiques de 3<sup>ème</sup> génération !
+Il est essentiel de concilier les avancées de la médecine moderne avec les connaissances
+traditionnelles. En associant les bienfaits des plantes aux traitements conventionnels, nous pouvons
+offrir aux patients des **soins plus personnalisés et plus respectueux de leur santé.**
 
 <br />
 
@@ -143,8 +159,6 @@ Les plantes médicinales ou anciennement appelés « simples » sont en réalit�
 A la différence d’un médicament de synthèse, qui lui a un principe actif isolé (pour la majorité) et qui est sélectionné pour cibler une action en particulier, les plantes renferment plusieurs principes actifs, capables d’avoir des effets potentialisés et d’agir en synergie (par l’ensemble de ses composants). C’est ainsi, qu’une plante peut avoir plusieurs actions différentes sur l’organisme. Par exemple, une plante peut en même temps faire transpirer, tuer les virus et stimuler l’immunité : elle est alors utilisée dans les cas de grippe ou de refroidissements hivernaux.
 
 **De nombreux médecins intègrent désormais les plantes dans leurs prescriptions, en complément ou en alternative aux traitements classiques**.
-
-L'intérêt croissant pour la recherche en phytothérapie permet de mieux comprendre les mécanismes d'action des plantes et de développer de nouveaux produits plus efficaces et plus sûrs.
 
 Ainsi, la phytothérapie a sa place grâce à ses effets thérapeutiques. Ils sont moins percutants sur l’instant, mais moins générateurs de problèmes au long cours et il est possible de les maintenir sur de longues périodes sans difficultés.
 
