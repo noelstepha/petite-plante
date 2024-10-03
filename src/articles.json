@@ -12,6 +12,16 @@
     "path": "/articles/article-2.md",
     "cover": "https://lapetiteplante.fr/img/blog/covers/wooden-spoons-with-plants-top-view.jpg",
     "category": "phytotherapy",
-    "nbWords": 1978
+    "nbWords": 1978,
+    "date": "01 Août 2024"
+  },
+  {
+    "id": "3",
+    "title": "Les visées sociales, environnementales et éducatives de La petite plante",
+    "path": "/articles/article-3.md",
+    "cover": "https://lapetiteplante.fr/img/blog/covers/impacts.webp",
+    "category": "environment",
+    "nbWords": 722,
+    "date": "03 Octobre 2024"
   }
 ]

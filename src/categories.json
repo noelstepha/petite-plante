@@ -23,5 +23,10 @@
     "label": "Micronutrition",
     "value": "micronutaition",
     "color": "#e11d48"
+  },
+  {
+    "label": "Environnement",
+    "value": "environment",
+    "color": "#5894d0"
   }
 ]

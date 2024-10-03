@@ -39,14 +39,6 @@ export const createApp = ViteSSG(
 export async function includedRoutes(paths: string[], routes: { name: string; path: string }[]) {
   const articleSlugs = articles.filter((a) => a.id !== '1').map((a) => a.id)
   return routes.flatMap((route) => {
-    return route.name === 'article' ? articleSlugs.map((slug) => `/blog/${slug}`) : route.path
+    return route.name.startsWith('article') ? articleSlugs.map((slug) => `/blog/${slug}`) : route.path
   })
 }
-// const app = createApp(App)
-// const head = createHead()
-//
-// app.use(createPinia())
-// app.use(router)
-// app.use(head)
-//
-// app.mount('#app')

@@ -37,7 +37,7 @@ const category = blogStore.category(props.article.category)
             <span class="truncate text-sm">{{ Math.floor((article.nbWords ?? 0) / 265) }} min de lecture</span>
           </div>
         <span class="text-xs text-gray-300">•</span>
-        <time class="truncate text-sm" datetime="2024-05-05T15:48:00.000Z">05 Mai 2024</time>
+        <time class="truncate text-sm" datetime="2024-05-05T15:48:00.000Z">{{ article.date }}</time>
       </div>
 
     </div>

@@ -6,4 +6,5 @@ export interface Article {
     category: string,
     nbWords: number,
     body?: string,
+    date: string,
 }
