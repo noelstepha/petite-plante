@@ -79,7 +79,7 @@ const pages = [
     </div>
     <div class="w-full flex justify-center p-3">
       <span class="mx-5">Copyright © 2024</span> |
-      <span class="mx-5">Tous Droits Réservés - La petite plante - SASU capital social 100 € - 924 944 366 RCS PAU</span> |
+      <span class="mx-5">Tous Droits Réservés - La petite plante - SASU capital social 100 € - 924 944 366 RCS PAU - TVA intra-communautaire : FR88924944366</span> |
       <span class="mx-5"
         >Images conçues par
         <a class="text-blue-500 underline" href="https://fr.freepik.com/">Freepik</a></span

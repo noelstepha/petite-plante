@@ -99,9 +99,12 @@ const { isMobile } = useDeviceStore()
           </consultation-item>
         </p>
       </div>
-      <p class="lg:text-lg text-center mt-10">Prenez rendez-vous dès maintenant en cliquant sur le bouton ci-dessous.</p>
+      <p class="lg:text-lg text-center mt-5">Prenez rendez-vous dès maintenant en cliquant sur le bouton ci-dessous.</p>
       <div class="flex flex-wrap justify-center py-5">
         <booking-widget />
+      </div>
+      <div class="lg:text-lg text-center mt-10">
+        Si vous souhaitez une autre modalité de rendez-vous, <router-link to="/#contact" class="py-3 hover:underline">contactez-moi</router-link>.
       </div>
     </section>
     <brush-separator class="text-green-100 w-full h-24 origin-center rotate-180" />
