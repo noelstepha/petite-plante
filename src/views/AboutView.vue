@@ -38,50 +38,64 @@ const { isMobile } = useDeviceStore()
         </div>
       </section>
       <div class="relative w-full bg-points mt-20">
-        <img :src="`/img/${isMobile ? 'mobile/' : ''}serums.png`" class="w-5/6 w-max-original m-auto" alt="serums"/>
+        <img :src="`/img/${isMobile ? 'mobile/' : ''}spices.png`" class="w-5/6 w-max-original m-auto" alt="spices"/>
       </div>
     </div>
     <section class="bg-amber-100 pt-10 pb-20 flex flex-col lg:flex-row items-center p-page">
       <div class="w-full bg-points py-10 hidden lg:block">
-        <img :src="`/img/${isMobile ? 'mobile/' : ''}spices.png`" class="w-5/6 m-auto" alt="spices"/>
+        <img :src="`/img/${isMobile ? 'mobile/' : ''}serums.png`" class="w-5/6 m-auto" alt="serums"/>
       </div>
       <div class="w-full ml-0 lg:ml-10">
-        <article-title text="Ma déontologie"></article-title>
-        <h3 class="font-dancing text-5xl my-3 mt-10 text-brown-900">Le respect</h3>
+        <article-title text="Atelier découvertes"></article-title>
+        <h3 class="font-dancing text-5xl my-3 mt-10 text-brown-900">Créez vos propres produit de soins naturels !</h3>
         <div class="text-justify lg:text-lg">
           <p>
-            Chaque client est une personne à respecter, quelle que soit sa situation, son état de
-            santé physique ou psychique, son niveau d'intégration sociale :
+            Vous rêvez de produits de beauté et de santé sains et personnalisés ?
+            <span class="text-green-900 font-bold">La petite plante</span> vous invite à des ateliers créatifs pour apprendre à fabriquer vos propres cosmétiques et produits de soins naturels.<br /><br />
+            <span class="font-bold">Au programme :</span>
           </p>
           <br />
           <ul>
             <li class="flex items-start">
               <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
-              Respect de la personne, de ses droits fondamentaux,
+              Initiation aux plates et à leurs vertus,
             </li>
             <li class="flex items-start">
               <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
-              Respect de son espace de vie privée, de son intimité, de son intégrité, de sa dignité,
+              Réalisation de recettes simples et efficaces,
             </li>
             <li class="flex items-start">
               <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
-              Respect de sa culture, de son choix de vie et de son projet de vie quand il est
-              formulé,
-            </li>
-            <li class="flex items-start">
-              <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
-              Respect de la confidentialité des informations reçues.
+              Conseils personnalisés pour une routine beauté naturelle.
             </li>
           </ul>
           <br />
           <p>
-            Ma déontologie implique donc réserve et discrétion pour tout et à tout moment du
-            conseil.
+            <span class="font-bold">Pourquoi participer ?</span>
+          </p>
+          <br />
+          <ul>
+            <li class="flex items-start">
+              <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
+              Savoir-faire : Repartez avec vos propres créations et les connaissances pour les reproduire.
+            </li>
+            <li class="flex items-start">
+              <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
+              Bien-être : Privilégiez des produits sains et respectueux de votre peau.
+            </li>
+            <li class="flex items-start">
+              <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
+              Ecologie: Réduisez votre impact environnemental et faites des économies.
+            </li>
+          </ul>
+          <br />
+          <p>
+            Contactez-moi et rejoignez dès aujourd’hui les ateliers de fabrication de produits de soins naturels organisés par <span class="text-green-900 font-bold">La petite plante</span> !
           </p>
         </div>
       </div>
       <div class="w-full bg-points mt-10 lg:hidden">
-        <img :src="`/img/${isMobile ? 'mobile/' : ''}spices.png`" class="w-5/6 m-auto" alt="spices" />
+        <img :src="`/img/${isMobile ? 'mobile/' : ''}serums.png`" class="w-5/6 m-auto" alt="serums" />
       </div>
     </section>
   </article>

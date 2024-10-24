@@ -12,6 +12,8 @@ import BrushEffect from '@/components/icons/BrushEffect.vue'
 import BrushSeparator from '@/components/icons/BrushSeparator.vue'
 import BookingWidget from "@/components/BookingWidget.vue";
 import {useDeviceStore} from "@/stores/device";
+import IconFlowerEmblem from "@/components/icons/IconFlowerEmblem.vue";
+import IconShoppingBag from "@/components/icons/IconShoppingBag.vue";
 const { isMobile } = useDeviceStore()
 </script>
 
@@ -23,7 +25,7 @@ const { isMobile } = useDeviceStore()
         <brush-effect>
           <article-title text="MON OBJECTIF" center secondary></article-title>
           <p class="font-dancing text-3xl lg:text-7xl text-green-800">
-            Vous donner des clés pour votre santé et votre bien-être !
+            Vous donner des clés pour votre santé, votre bien-être et votre beauté !
           </p>
         </brush-effect>
       </div>
@@ -39,8 +41,7 @@ const { isMobile } = useDeviceStore()
             Puis 35 € pour la séance de suivi.
             Une séance à domicile est possible au tarif de 60 € (séance de suivi à domicile 45 €) et les règlements pourront se faire alors par carte bancaire, chèque, espèce ou virement instantané.<br /><br />
 
-            Concernant l'achat, en supplément, des produits conseillés :
-            Vous les trouverez en magasin bio ou en pharmacie. Je mets aussi à votre disposition, sur mon site, des liens internets.
+            Si vous souhaitez une autre modalité de rendez-vous, <router-link to="/#contact" class="py-3 hover:underline">contactez-moi</router-link>.
           </p>
         </div>
         <div class="w-full">
@@ -99,12 +100,42 @@ const { isMobile } = useDeviceStore()
           </consultation-item>
         </p>
       </div>
-      <p class="lg:text-lg text-center mt-5">Prenez rendez-vous dès maintenant en cliquant sur le bouton ci-dessous.</p>
+      <div class="py-5 my-5">
+        <article-title text="Les produits" secondary center-sm-only></article-title>
+        <consultation-item
+          class="mt-10 px-10"
+          :number="7"
+          text="Fourniture et livraison des produits naturels (optionnel)"
+        >
+          <icon-shopping-bag />
+        </consultation-item>
+        <p class="ml-10">
+          Pour tous ceux qui souhaitent se faciliter la vie, le bien-être est à portée de clic !<br />
+          <span class="text-green-900 font-bold">La petite plante</span> met en place une assistance : après validation et paiement d'un devis pour l'achat des produits préconisés dans le bilan personnalisé,
+          nous nous occupons de vous les livrer. Ainsi, vous n'avez plus qu'à suivre pas à pas le protocole de soin spécialement conçu pour vous.<br />
+        </p>
+      </div>
+      <br />
+      <div class="flex flex-col items-center lg:text-lg text-center mt-5">
+        <div><span class="text-green-900 font-bold">La petite plante</span> vous accompagne dans votre quête du bien-être naturel :<br /><br /></div>
+        <ul>
+          <li class="flex items-start">
+            <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
+            <span class="font-bold">Avec un bilan personnalisé</span> : Découvrez les produits naturels parfaitement adaptés à vos besoins spécifiques.
+          </li>
+          <li class="flex items-start">
+            <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
+            <span class="font-bold">La livraison à domicile</span> : Recevez vos produits directement chez vous, en toute simplicité.
+          </li>
+          <li class="flex items-start">
+            <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
+            <span class="font-bold">Des soins sur mesure</span> : Huiles essentielles, plantes, cosmétiques bio, etc. Tout pour une routine santé et beauté naturelle.
+          </li>
+        </ul>
+      </div>
+      <p class="lg:text-lg text-center mt-5">Prenez rendez-vous dès maintenant pour un bilan personnalisé et profitez du service de livraison !</p>
       <div class="flex flex-wrap justify-center py-5">
         <booking-widget />
-      </div>
-      <div class="lg:text-lg text-center mt-10">
-        Si vous souhaitez une autre modalité de rendez-vous, <router-link to="/#contact" class="py-3 hover:underline">contactez-moi</router-link>.
       </div>
     </section>
     <brush-separator class="text-green-100 w-full h-24 origin-center rotate-180" />

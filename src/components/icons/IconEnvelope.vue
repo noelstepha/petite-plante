@@ -7,12 +7,12 @@
 
 </template>
 <style scoped>
-.b{
+.b {
   fill: #fcd2c3;
   transform: rotateX(180deg) scale(0.35) translate(-33px, -18px);
   transform-origin: center;
+  border: none;
 }
-
 .icon {
   transform: translate(2px, 2px);
 }
