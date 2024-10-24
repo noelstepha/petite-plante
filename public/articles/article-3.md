@@ -1,6 +1,6 @@
 <div style="width: 40vw; text-align: center; margin: auto">
 
-![Environnement](https://lapetiteplante.fr/img/blog/covers/impacts.webp)
+![Environnement](https://lapetiteplante.fr/img/blog/covers/impacts-globe.png)
 
 </div>
 
