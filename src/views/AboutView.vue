@@ -85,7 +85,7 @@ const { isMobile } = useDeviceStore()
             </li>
             <li class="flex items-start">
               <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
-              Ecologie: Réduisez votre impact environnemental et faites des économies.
+              Ecologie : Réduisez votre impact environnemental et faites des économies.
             </li>
           </ul>
           <br />

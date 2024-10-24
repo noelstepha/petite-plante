@@ -109,7 +109,7 @@ const { isMobile } = useDeviceStore()
         >
           <icon-shopping-bag />
         </consultation-item>
-        <p class="ml-10">
+        <p class="mt-10 md:mt-0 md:ml-10 text-justify">
           Pour tous ceux qui souhaitent se faciliter la vie, le bien-être est à portée de clic !<br />
           <span class="text-green-900 font-bold">La petite plante</span> met en place une assistance : après validation et paiement d'un devis pour l'achat des produits préconisés dans le bilan personnalisé,
           nous nous occupons de vous les livrer. Ainsi, vous n'avez plus qu'à suivre pas à pas le protocole de soin spécialement conçu pour vous.<br />
@@ -119,17 +119,17 @@ const { isMobile } = useDeviceStore()
       <div class="flex flex-col items-center lg:text-lg text-center mt-5">
         <div><span class="text-green-900 font-bold">La petite plante</span> vous accompagne dans votre quête du bien-être naturel :<br /><br /></div>
         <ul>
-          <li class="flex items-start">
-            <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
-            <span class="font-bold">Avec un bilan personnalisé</span> : Découvrez les produits naturels parfaitement adaptés à vos besoins spécifiques.
+          <li class="flex flex-col items-center justify-center mb-5">
+            <span class="font-bold">Avec un bilan personnalisé</span>
+            <span>Découvrez les produits naturels parfaitement adaptés à vos besoins spécifiques.</span>
           </li>
-          <li class="flex items-start">
-            <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
-            <span class="font-bold">La livraison à domicile</span> : Recevez vos produits directement chez vous, en toute simplicité.
+          <li class="flex flex-col items-center justify-center mb-5">
+            <span class="font-bold">La livraison à domicile</span>
+            <span>Recevez vos produits directement chez vous, en toute simplicité.</span>
           </li>
-          <li class="flex items-start">
-            <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
-            <span class="font-bold">Des soins sur mesure</span> : Huiles essentielles, plantes, cosmétiques bio, etc. Tout pour une routine santé et beauté naturelle.
+          <li class="flex flex-col items-center justify-center mb-5">
+            <span class="font-bold">Des soins sur mesure</span>
+            <span>Huiles essentielles, plantes, cosmétiques bio, etc. Tout pour une routine santé et beauté naturelle.</span>
           </li>
         </ul>
       </div>

@@ -16,7 +16,7 @@ defineProps<{
   </h2>
   <div
     class="border-b border-b-lime-400 w-12 mt-1.5 mb-3"
-    :class="{ 'm-auto': center, 'border-b-amber-600': secondary }"
+    :class="{ 'm-auto': center || centerSmOnly, 'md:mx-0': centerSmOnly, 'border-b-amber-600': secondary }"
   ></div>
 </template>
 
