@@ -47,5 +47,10 @@ export const routes: Array<RouteRecordRaw> = [
     path: '/blog/3',
     name: 'article-3',
     component: BlogArticleView
+  },
+  {
+    path: '/blog/4',
+    name: 'article-4',
+    component: BlogArticleView
   }
 ]

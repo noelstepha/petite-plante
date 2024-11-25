@@ -31,6 +31,8 @@ export const useBlogStore = defineStore('blog', {
           body: await this.getArticleBody(article as Article)
         }))
       )
+
+      this.articles.sort((a, b) => parseInt(b.id) - parseInt(a.id))
       this.ready = true
     }
   }

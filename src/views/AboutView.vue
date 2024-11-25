@@ -46,8 +46,8 @@ const { isMobile } = useDeviceStore()
         <img :src="`/img/${isMobile ? 'mobile/' : ''}serums.png`" class="w-5/6 m-auto" alt="serums"/>
       </div>
       <div class="w-full ml-0 lg:ml-10">
-        <article-title text="Atelier découvertes"></article-title>
-        <h3 class="font-dancing text-5xl my-3 mt-10 text-brown-900">Créez vos propres produit de soins naturels !</h3>
+        <article-title text="Ateliers découverte"></article-title>
+        <h3 class="font-dancing text-5xl my-3 mt-10 text-brown-900">Créez vos propres produits de soins naturels !</h3>
         <div class="text-justify lg:text-lg">
           <p>
             Vous rêvez de produits de beauté et de santé sains et personnalisés ?
@@ -58,7 +58,7 @@ const { isMobile } = useDeviceStore()
           <ul>
             <li class="flex items-start">
               <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
-              Initiation aux plates et à leurs vertus,
+              Initiation aux plantes et à leurs vertus,
             </li>
             <li class="flex items-start">
               <icon-flower-emblem class="w-3 h-3 inline-block text-secondary mt-2 mr-2" />
