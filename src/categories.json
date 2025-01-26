@@ -28,5 +28,10 @@
     "label": "Environnement",
     "value": "environment",
     "color": "#5894d0"
+  },
+  {
+    "label": "Temoinage",
+    "value": "testimony",
+    "color": "#bf252c"
   }
 ]

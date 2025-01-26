@@ -32,5 +32,14 @@
     "category": "phytotherapy",
     "nbWords": 1331,
     "date": "24 Novembre 2024"
+  },
+  {
+    "id": "5",
+    "title": "Témoignage dans le journal Sud-Ouest",
+    "path": "/articles/article-5.md",
+    "cover": "https://lapetiteplante.fr/img/blog/covers/vignette-article-sud-ouest.png",
+    "category": "testimony",
+    "nbWords": 1331,
+    "date": "06 Janvier 2025"
   }
 ]

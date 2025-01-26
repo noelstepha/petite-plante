@@ -52,5 +52,10 @@ export const routes: Array<RouteRecordRaw> = [
     path: '/blog/4',
     name: 'article-4',
     component: BlogArticleView
+  },
+  {
+    path: '/blog/5',
+    name: 'article-5',
+    component: BlogArticleView
   }
 ]
